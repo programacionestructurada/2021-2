@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyecto05" />
+		<Option pch_mode="2" />
+		<Option compiler="cygwin" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="01Funciones_sin_paso_de_parametros">
+				<Option output="bin/01Funciones_sin_paso_de_parametros/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/01Funciones_sin_paso_de_parametros/" />
+				<Option object_output="obj/01Funciones_sin_paso_de_parametros/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="02Funciones_con_paso_de_parametros">
+				<Option output="bin/02Funciones_con_paso_de_parametros/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02Funciones_con_paso_de_parametros/" />
+				<Option object_output="obj/02Funciones_con_paso_de_parametros/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="02TestFuerzaMasaAceleracion">
+				<Option output="bin/02TestFuerzaMasaAceleracion/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02TestFuerzaMasaAceleracion/" />
+				<Option object_output="obj/02TestFuerzaMasaAceleracion/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="03_Apuntadores">
+				<Option output="bin/03_Apuntadores/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/03_Apuntadores/" />
+				<Option object_output="obj/03_Apuntadores/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="04_Cadenas">
+				<Option output="bin/04_Cadenas/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/04_Cadenas/" />
+				<Option object_output="obj/04_Cadenas/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05_Funciones_string">
+				<Option output="bin/05_Funciones_string/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/05_Funciones_string/" />
+				<Option object_output="obj/05_Funciones_string/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="06_Estructuras">
+				<Option output="bin/06_Estructuras/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/06_Estructuras/" />
+				<Option object_output="obj/06_Estructuras/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="07_Apuntadores_y_Estructuras">
+				<Option output="bin/07_Apuntadores_y_Estructuras/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/07_Apuntadores_y_Estructuras/" />
+				<Option object_output="obj/07_Apuntadores_y_Estructuras/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="08_Lectura_Escritura_en_Archivos">
+				<Option output="bin/08_Lectura_Escritura_en_Archivos/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/08_Lectura_Escritura_en_Archivos/" />
+				<Option object_output="obj/08_Lectura_Escritura_en_Archivos/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="09_Escritura_con_Formato_a_Archivo">
+				<Option output="bin/09_Escritura_con_Formato_a_Archivo/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/09_Escritura_con_Formato_a_Archivo/" />
+				<Option object_output="obj/09_Escritura_con_Formato_a_Archivo/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="10_Read_Lines">
+				<Option output="bin/10_Read_Lines/Proyecto05" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/10_Read_Lines/" />
+				<Option object_output="obj/10_Read_Lines/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/LMC/2021/Proyecto05/00CommonFiles" />
+		</Compiler>
+		<Unit filename="00CommonFiles/Calcular_Fuerza_Masa_y_Aceleracion.c">
+			<Option compilerVar="CC" />
+			<Option target="02TestFuerzaMasaAceleracion" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="05_Funciones_string" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="00CommonFiles/Funciones_con_paso_de_parametros.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="02Funciones_con_paso_de_parametros" />
+			<Option target="02TestFuerzaMasaAceleracion" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="05_Funciones_string" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="00CommonFiles/Funciones_sin_paso_de_parametros.c">
+			<Option compilerVar="CC" />
+			<Option target="01Funciones_sin_paso_de_parametros" />
+			<Option target="Debug" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="05_Funciones_string" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="00CommonFiles/common.h">
+			<Option target="01Funciones_sin_paso_de_parametros" />
+			<Option target="02Funciones_con_paso_de_parametros" />
+			<Option target="02TestFuerzaMasaAceleracion" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="05_Funciones_string" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="00CommonFiles/conio.c">
+			<Option compilerVar="CC" />
+			<Option target="01Funciones_sin_paso_de_parametros" />
+			<Option target="02Funciones_con_paso_de_parametros" />
+			<Option target="02TestFuerzaMasaAceleracion" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="00CommonFiles/conio2.h">
+			<Option target="01Funciones_sin_paso_de_parametros" />
+			<Option target="02Funciones_con_paso_de_parametros" />
+			<Option target="02TestFuerzaMasaAceleracion" />
+			<Option target="03_Apuntadores" />
+			<Option target="04_Cadenas" />
+			<Option target="05_Funciones_string" />
+			<Option target="06_Estructuras" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="07_Apuntadores_y_Estructuras/inicializar.c">
+			<Option compilerVar="CC" />
+			<Option target="07_Apuntadores_y_Estructuras" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="08_Lectura_Escritura_en_Archivos/TestLecturaEscrituraArchivos.c">
+			<Option compilerVar="CC" />
+			<Option target="08_Lectura_Escritura_en_Archivos" />
+		</Unit>
+		<Unit filename="09_Escritura_con_Formato_a_Archivo/TestEscrituraConFormatoAArchivo.c">
+			<Option compilerVar="CC" />
+			<Option target="09_Escritura_con_Formato_a_Archivo" />
+		</Unit>
+		<Unit filename="10_Read_Lines/TestReadLines.c">
+			<Option compilerVar="CC" />
+			<Option target="10_Read_Lines" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

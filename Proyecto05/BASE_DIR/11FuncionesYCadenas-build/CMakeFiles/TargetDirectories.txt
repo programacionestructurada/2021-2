@@ -1,0 +1,3 @@
+C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-build/CMakeFiles/11_Test_Funciones_y_Cadenas.dir
+C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-build/CMakeFiles/ZERO_CHECK.dir

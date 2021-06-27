@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1616441447 source:c:\users\lmc\2021\proyecto04\main3.c
+	<stdio.h>
+
+1617220959 source:c:\users\lmc\2021\proyecto04\main6.c
+	<stdio.h>
+
+1619033356 source:c:\users\lmc\2021\proyecto04\main7.c
+	<stdio.h>
+	<limits.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdalign.h>
+	<assert.h>
+	<string.h>
+
+1619442673 source:c:\users\lmc\2021\proyecto04\01ejemplofor\fib_for.c
+	<stdio.h>
+
+1619443945 source:c:\users\lmc\2021\proyecto04\02ejemplofor\print_array_int.c
+	<stdio.h>
+
+1620760353 source:c:\users\lmc\2021\proyecto04\05ciclosforwhiledowhile\calcmomentos.c
+	<stdio.h>
+	<assert.h>
+
+1620760412 source:c:\users\lmc\2021\proyecto04\05ciclosforwhiledowhile\strong.c
+	<stdio.h>
+
+1620201037 source:c:\users\lmc\2021\proyecto04\06swap_bytes\swap_bytes.c
+	<stdio.h>
+
+1621357990 source:c:\users\lmc\2021\proyecto04\12arreglosbidimensionales\arrbidconio2.c
+	<stdio.h>
+	<conio2.h>
+	<stdlib.h>
+
+1386462276 source:c:\users\lmc\2021\proyecto04\00commonfiles\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"conio2.h"
+
+1386382178 c:\users\lmc\2021\proyecto04\00commonfiles\conio2.h
+	<conio.h>
+	<windows.h>
+
+1621364313 source:c:\users\lmc\2021\proyecto04\13cuentacar\cuentacar.c
+	<stdio.h>
+	<conio2.h>
+
+1621452578 source:c:\users\lmc\2021\proyecto04\15binomial\distribucionbinomial.c
+	<stdio.h>
+	<math.h>
+
+1621963291 source:c:\users\lmc\2021\proyecto04\14digitomayusculaminuscula\digitomayusculaminuscula.c
+	<stdio.h>
+	<conio2.h>
+	<ctype.h>
+

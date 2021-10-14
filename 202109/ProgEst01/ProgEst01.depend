@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1630696959 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\20210903\progest01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1631906139 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\file.c
+
+1630696959 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1631213817 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\dummy.c
+	<stdio.h>
+
+1631215766 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\modificadores_acceso.c
+	<stdio.h>
+
+1631906295 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\02\vars_span.c
+	<stdio.h>
+
+1631906463 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\my_char.c
+
+1632338942 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\04_diapositiva31_ejemplo_7\ejemplo_7.c
+	<stdio.h>
+	<limits.h>
+
+1632420962 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\03_diapositiva20\test_variables.c
+	<stdio.h>
+
+1632510391 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\05_diapositiva35_ejemplo_9\ejemplo_9.c
+	<stdio.h>
+
+1633030591 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\06_diapositiva35_ejemplo9\ejemplo9v1.c
+	<stdio.h>
+
+1633548275 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\07_valor_vs_referencia\valor_vs_referencia.c
+	<stdio.h>
+
+1633718186 source:c:\users\lmc\2021\repos_2021\2022_1_prog_estruc___1tv2\202109\progest01\08_ejercicios_max\max.c
+	<stdio.h>
+	<ctype.h>
+
+1634239222 source:c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202109\progest01\08_ejercicios_scanf\deducir_comp_scanf.c
+	<stdio.h>
+

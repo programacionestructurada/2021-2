@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProgEst01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="00_dummy">
+				<Option output="bin/00_dummy/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/00_dummy/" />
+				<Option object_output="obj/00_dummy/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="01_modificadores_acceso">
+				<Option output="bin/01_modificadores_acceso/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/01_modificadores_acceso/" />
+				<Option object_output="obj/01_modificadores_acceso/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="02_decl_vars_y_span">
+				<Option output="bin/02_decl_vars_y_span/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02_decl_vars_y_span/" />
+				<Option object_output="obj/02_decl_vars_y_span/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="03_diapositiva20">
+				<Option output="bin/03_diapositiva20/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/03_diapositiva20/" />
+				<Option object_output="obj/03_diapositiva20/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="04_diapositiva31_Ejemplo_7">
+				<Option output="bin/04_diapositiva31_Ejemplo_7/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/04_diapositiva31_Ejemplo_7/" />
+				<Option object_output="obj/04_diapositiva31_Ejemplo_7/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05_diapositiva35_Ejemplo_9">
+				<Option output="bin/05_diapositiva35_Ejemplo_9/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/05_diapositiva35_Ejemplo_9/" />
+				<Option object_output="obj/05_diapositiva35_Ejemplo_9/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="06_diapositiva35_Ejemplo9">
+				<Option output="bin/06_diapositiva35_Ejemplo9/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/06_diapositiva35_Ejemplo9/" />
+				<Option object_output="obj/06_diapositiva35_Ejemplo9/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="07_Valor_vs_Referencia">
+				<Option output="bin/07_Valor_vs_Referencia/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/07_Valor_vs_Referencia/" />
+				<Option object_output="obj/07_Valor_vs_Referencia/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="08_Ejercicios">
+				<Option output="bin/08_Ejercicios/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/08_Ejercicios/" />
+				<Option object_output="obj/08_Ejercicios/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="08_Ejercicios_scanf">
+				<Option output="bin/08_Ejercicios_scanf/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/08_Ejercicios_scanf/" />
+				<Option object_output="obj/08_Ejercicios_scanf/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="04_diapositiva31_Ejemplo_7/Ejemplo_7.c">
+			<Option compilerVar="CC" />
+			<Option target="04_diapositiva31_Ejemplo_7" />
+		</Unit>
+		<Unit filename="05_diapositiva35_Ejemplo_9/Ejemplo_9.c">
+			<Option compilerVar="CC" />
+			<Option target="05_diapositiva35_Ejemplo_9" />
+		</Unit>
+		<Unit filename="06_diapositiva35_Ejemplo9/Ejemplo9v1.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="06_diapositiva35_Ejemplo9/Ejemplo9v2.c">
+			<Option compilerVar="CC" />
+			<Option target="05_diapositiva35_Ejemplo_9" />
+		</Unit>
+		<Unit filename="06_diapositiva35_Ejemplo9/Ejemplo9v3.c">
+			<Option compilerVar="CC" />
+			<Option target="06_diapositiva35_Ejemplo9" />
+		</Unit>
+		<Unit filename="07_Valor_vs_Referencia/valor_vs_referencia.c">
+			<Option compilerVar="CC" />
+			<Option target="07_Valor_vs_Referencia" />
+		</Unit>
+		<Unit filename="08_Ejercicios_MAX/MAX.c">
+			<Option compilerVar="CC" />
+			<Option target="08_Ejercicios" />
+		</Unit>
+		<Unit filename="08_Ejercicios_scanf/deducir_comp_scanf.c">
+			<Option compilerVar="CC" />
+			<Option target="08_Ejercicios_scanf" />
+		</Unit>
+		<Unit filename="dummy.c">
+			<Option compilerVar="CC" />
+			<Option target="00_dummy" />
+		</Unit>
+		<Unit filename="file.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

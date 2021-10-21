@@ -148,6 +148,19 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="09_Debugme">
+				<Option output="bin/09_Debugme/ProgEst01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/09_Debugme/" />
+				<Option object_output="obj/09_Debugme/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<!-- <Linker>
+					<Add option="-s" />
+				</Linker> -->
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -183,6 +196,10 @@
 		<Unit filename="08_Ejercicios_scanf/deducir_comp_scanf.c">
 			<Option compilerVar="CC" />
 			<Option target="08_Ejercicios_scanf" />
+		</Unit>
+		<Unit filename="09_Debugme/debugme.c">
+			<Option compilerVar="CC" />
+			<Option target="09_Debugme" />
 		</Unit>
 		<Unit filename="dummy.c">
 			<Option compilerVar="CC" />

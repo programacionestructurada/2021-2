@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1635345944 source:c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\02_bloomtax\bloomtax.c
+	<stdio.h>
+
+1635349546 source:c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\02_bloomtax\testbloomtax.c
+	<stdio.h>
+	"BloomTax.h"
+
+1635351475 c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\02_bloomtax\bloomtax.h
+
+1635346983 c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\02_bloomtax\bloomtax.c
+
+1635362742 source:c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\00_01_arreglos\arreglos_unidimensionales.c
+	<stdio.h>
+
+1635969241 source:c:\users\lmc\2021\repos_2021\1tv1_prog_estruc_2021-2\repo\org_programacionestructurada\2021-2\202110\progest02\00_02_burbuja\sort_burbuja.c
+	<stdio.h>
+

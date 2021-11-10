@@ -14,7 +14,7 @@ void print_array(int A[],unsigned int tam){
 }
 
 /**
- Ordena de menor a mayor los elemenos de
+ Ordena de menor a mayor los elementos de
  un arreglo de tamanio mayor o igual a 2.
  @param tam debe ser mayor o igual que 2.
  @param D: si D es 0, ordena de menor a mayor,

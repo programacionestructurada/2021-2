@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="00_02_Burbuja" />
+	<ActiveTarget name="00_01_Arreglos" />
+	<File name="02_BloomTax\BloomTax.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3291" topLine="75" />
+		</Cursor>
+	</File>
 	<File name="02_BloomTax\TestBloomTax.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1317" topLine="25" />
 		</Cursor>
 	</File>
-	<File name="00_02_Burbuja\sort_burbuja.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="00_01_Arreglos\arreglos_unidimensionales.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="220" topLine="73" />
-		</Cursor>
-	</File>
-	<File name="02_BloomTax\lines_arr.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="159" topLine="7" />
+			<Cursor1 position="2611" topLine="63" />
 		</Cursor>
 	</File>
 	<File name="01_MaxDTresEnteros\MaxDTresEnteros.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -22,19 +22,19 @@
 			<Cursor1 position="143" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="02_BloomTax\BloomTax.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="02_BloomTax\lines_arr.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3291" topLine="75" />
+			<Cursor1 position="159" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="00_02_Burbuja\sort_burbuja.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="370" topLine="60" />
 		</Cursor>
 	</File>
 	<File name="02_BloomTax\BloomTax.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="46" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="00_01_Arreglos\arreglos_unidimensionales.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2508" topLine="45" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -67,6 +67,19 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="00_04_SumaDVectores">
+				<Option output="bin/00_04_SumaDVectores/ProgEst02" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/00_04_SumaDVectores/" />
+				<Option object_output="obj/00_04_SumaDVectores/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -78,6 +91,10 @@
 		<Unit filename="00_02_Burbuja/sort_burbuja.c">
 			<Option compilerVar="CC" />
 			<Option target="00_02_Burbuja" />
+		</Unit>
+		<Unit filename="00_04_SumaDVectores/SumaDVectores.c">
+			<Option compilerVar="CC" />
+			<Option target="00_04_SumaDVectores" />
 		</Unit>
 		<Unit filename="01_MaxDTresEnteros/MaxDTresEnteros.c">
 			<Option compilerVar="CC" />

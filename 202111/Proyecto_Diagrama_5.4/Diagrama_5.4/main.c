@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define SIZE_ARR(arr)   (sizeof(arr)/sizeof(arr[0]))
 #define MAX 100
 void mostrar_alumno_y_promedio(char Nom[MAX][128],
                                float *Prom,
                                int cant_d_alumnos);
-void remove_backslash_n(char cad[128]);
+void remove_backslash_n(char cad[128],unsigned int tam);
 
 int main()
 {
@@ -23,26 +24,22 @@ int main()
  /**ENTRADA*/
  printf("Introduce la cantidad de alumnos: ");
  scanf("%d%*c",&A);
- //fflush(stdin);
- //A=2;
+
  P = (float *)malloc((A+1)*sizeof(float));
  I = 1;
  while (!(I>A)) {
    printf("Nombre del alumno(a): ");
-   //scanf("%s",N[I]);
-   //fflush(stdin);
    getline(&line, &len, stdin);
-
    strcpy(N[I],line);
-   remove_backslash_n(N[I]);
+   remove_backslash_n(N[I],SIZE_ARR(N[I]));
    line = NULL;
    len = 0;
    printf("Promedio del alumno(a): ");
    scanf("%f%*c",&P[I]);
-   //fflush(stdin);
    I = I + 1;
  }
  mostrar_alumno_y_promedio(N,P,A);
+
  return 0;
 }/*end main()*/
 
@@ -52,12 +49,14 @@ void mostrar_alumno_y_promedio(char Nom[MAX][128],
                                int cant_d_alumnos)
 {
   int i;
-  int m = 0,j = 0,k = 0;
+  #ifdef __unix__
+  int n = 0,j = 0,k = 0;
+  #endif
   printf("%-32s%14s\n","NOMBRE","PROMEDIO");
   for (i = 1;i<=cant_d_alumnos;i++){
-    m = 0; j = 0; k = 0;
     printf("%-32s",Nom[i]);
     #ifdef __unix__
+    m = 0; j = 0; k = 0;
     while (Nom[i][m] != '\0') {
       /** https://www.utf8-chartable.de/
           For systems that use UTF-8.  */
@@ -67,7 +66,7 @@ void mostrar_alumno_y_promedio(char Nom[MAX][128],
            ((Nom[i][m] == '\xC3') && (Nom[i][m+1] == '\x91'))
            /* Ñ */
          ) {
-        /** cad[i] == 'Ñ' produces warning :-( */
+        /** cad[i] == 'Ñ' produces warning. */
         j++;
         m++;
       }
@@ -85,12 +84,12 @@ void mostrar_alumno_y_promedio(char Nom[MAX][128],
     #endif // __unix__
     printf("%14.1f\n",Prom[i]);
   }
-}
+}/*end mostrar_alumno_y_promedio()*/
 
-void remove_backslash_n(char cad[128])
+void remove_backslash_n(char cad[128],unsigned int tam)
 {
- int i = 0;//,j = 0,k = 0;
- while (cad[i] != '\n') {
+ unsigned int i = 0;
+ while ((cad[i] != '\n') && (i < tam)) {
    i++;
  }
  cad[i] = '\0';

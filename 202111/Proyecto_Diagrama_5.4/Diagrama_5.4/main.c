@@ -91,27 +91,7 @@ void remove_backslash_n(char cad[128])
 {
  int i = 0;//,j = 0,k = 0;
  while (cad[i] != '\n') {
-   /** https://www.utf8-chartable.de/
-       For systems that use UTF-8  */
-   //if ( /* ñ */
-   //     ((cad[i] == '\xC3') && (cad[i+1] == '\xB1')) ||
-   //     ((cad[i] == '\xC3') && (cad[i+1] == '\x91'))
-   //     /* Ñ */
-   //     //((cad[i] == '\xC3') && (cad[i+1] == '\xB1'))
-   //   ) {
-   //  /** cad[i] == 'Ñ' produces warning :-( */
-   //  j++;
-   //  i++;
-   //}
    i++;
  }
- //if (j){
- //  printf("j=%d\n",j);
- //}
- //while (k < j) {
- //  cad[i] = ' ';
- //  i++;
- //  k++;
- //}
  cad[i] = '\0';
 }/*end remove_backslash_n()*/

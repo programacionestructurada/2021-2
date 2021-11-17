@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 #define SIZE_ARR(arr)   (sizeof(arr)/sizeof(arr[0]))
-#define MAX 100
+//#define MAX 100
+const int MAX = 100;
 void mostrar_alumno_y_promedio(char Nom[MAX][128],
                                float *Prom,
                                int cant_d_alumnos);
 void remove_backslash_n(char cad[128],unsigned int tam);
+void proceso(char N[MAX][128],float *P,int A);
 
 int main()
 {
@@ -40,17 +42,23 @@ int main()
  }
  mostrar_alumno_y_promedio(N,P,A);
 
+ /**PROCESO*/
+ proceso(N,P,A);
+
+ /**SALIDA*/
+ mostrar_alumno_y_promedio(N,P,A);
+
  return 0;
 }/*end main()*/
 
-
+#if 0
 void mostrar_alumno_y_promedio(char Nom[MAX][128],
                                float *Prom,
                                int cant_d_alumnos)
 {
   int i;
   #ifdef __unix__
-  int n = 0,j = 0,k = 0;
+  int m = 0,j = 0,k = 0;
   #endif
   printf("%-32s%14s\n","NOMBRE","PROMEDIO");
   for (i = 1;i<=cant_d_alumnos;i++){
@@ -85,6 +93,7 @@ void mostrar_alumno_y_promedio(char Nom[MAX][128],
     printf("%14.1f\n",Prom[i]);
   }
 }/*end mostrar_alumno_y_promedio()*/
+#endif // 0
 
 void remove_backslash_n(char cad[128],unsigned int tam)
 {

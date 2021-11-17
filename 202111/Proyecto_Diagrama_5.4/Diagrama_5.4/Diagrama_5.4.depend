@@ -4,6 +4,8 @@
 	<stdlib.h>
 	<string.h>
 
+1637089282 
+
 1637082319 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202111/Proyecto_Diagrama_5.4/Diagrama_5.4/main.c
 	<stdio.h>
 	<stdlib.h>
@@ -13,4 +15,15 @@
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1637176955 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202111/Proyecto_Diagrama_5.4/Diagrama_5.4/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1637177993 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202111/Proyecto_Diagrama_5.4/Diagrama_5.4/proceso.c
+	<string.h>
+
+1637178739 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202111/Proyecto_Diagrama_5.4/Diagrama_5.4/salida.c
+	<stdio.h>
 

@@ -80,6 +80,19 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="00_06_Traspuesta">
+				<Option output="bin/00_06_Traspuesta/ProgEst02" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/00_06_Traspuesta/" />
+				<Option object_output="obj/00_06_Traspuesta/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -95,6 +108,10 @@
 		<Unit filename="00_04_SumaDVectores/SumaDVectores.c">
 			<Option compilerVar="CC" />
 			<Option target="00_04_SumaDVectores" />
+		</Unit>
+		<Unit filename="00_06_Traspuesta/TraspuestaDMatrices.c">
+			<Option compilerVar="CC" />
+			<Option target="00_06_Traspuesta" />
 		</Unit>
 		<Unit filename="01_MaxDTresEnteros/MaxDTresEnteros.c">
 			<Option compilerVar="CC" />

@@ -37,6 +37,9 @@
 		<Unit filename="proceso.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="salida.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

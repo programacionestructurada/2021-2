@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="00_04_SumaDVectores" />
+	<ActiveTarget name="00_06_Traspuesta" />
+	<File name="01_MaxDTresEnteros/MaxDTresEnteros.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="02_BloomTax/TestBloomTax.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1317" topLine="25" />
+		</Cursor>
+	</File>
 	<File name="02_BloomTax/BloomTax.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="46" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="01_MaxDTresEnteros/MaxDTresEnteros.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="00_02_Burbuja/sort_burbuja.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="143" topLine="0" />
+			<Cursor1 position="325" topLine="6" />
 		</Cursor>
 	</File>
 	<File name="02_BloomTax/BloomTax.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -25,16 +35,6 @@
 	<File name="00_01_Arreglos/arreglos_unidimensionales.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2611" topLine="57" />
-		</Cursor>
-	</File>
-	<File name="02_BloomTax/TestBloomTax.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1317" topLine="25" />
-		</Cursor>
-	</File>
-	<File name="00_02_Burbuja/sort_burbuja.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="325" topLine="6" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

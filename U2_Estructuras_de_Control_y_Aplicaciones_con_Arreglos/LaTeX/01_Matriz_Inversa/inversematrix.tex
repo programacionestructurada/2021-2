@@ -1,0 +1,106 @@
+\documentclass{article}
+\def\InvDA{
+$A^{-1}=\frac{1}{\mbox{\rm det\ }\{A\}}\mbox{\rm adj}\{A\}$
+}
+\def\InvD#1{
+#1^{-1}=\frac{1}{\mbox{\rm det\ }\{#1\}}\mbox{\rm adj}\{#1\}
+}
+
+\begin{document}
+\section{Def\/inici\'on de Matriz Inversa}
+Sea $A\in R^{n\times n}$. Si $n=1$ $\Rightarrow$ 
+$A^{-1}=\frac{1}{a_{00}}$, $a_{00}\neq 0$. Si $n\in\{2,3,4,5,\ldots\}$
+$\Rightarrow$ 
+\[
+A^{-1}=\frac{1}
+{\mbox{\rm det\ }\{A\}}\mbox{\rm adj}\{A\}
+\]
+\[
+\InvD{B}
+\]
+%\InvDA
+\section{Submatrices de una matriz}
+En la definici\'{o}n del determinante de una matriz se utilizar\'{a}n las submatrices 
+obtenidas cuando se eliminan una fila y una columna. Por comodidad, en este documento 
+se describir\'{a}n \'{u}nicamente submatrices obtenidas eliminando la fila 0 y las 
+columnas de la 0 a la $n-1$. Para una matriz $A\in\,R^{n\times n}$, se denotar\'{a} con 
+$A_{0j}$ a la submatriz obtenida eliminando la  fila 0 y la columna  $j$ (para 
+$j\in\{0,1,\ldots,n-1\}$). Por ejemplo, dada la matriz
+\[
+A = \left[\begin{array}{ccc}
+1.00&2.00&3.00\\
+4.00&40.41&42.43\\
+5.00&44.45&46.47
+\end{array}\right]
+\]
+Las submatrices $A_{00}$, $A_{01}$, y $A_{02}$ son las siguientes:
+\[
+A_{00} =  
+\left[\begin{array}{cc}
+40.41&42.43\\
+44.45&46.47
+\end{array}\right]
+\]
+\[
+A_{01} =  
+\left[\begin{array}{cc}
+4.00&42.43\\
+5.00&46.47
+\end{array}\right]
+\]
+\[
+A_{02} =  
+\left[\begin{array}{cc}
+4.00&40.41\\
+5.00&44.45
+\end{array}\right]
+\]
+Para ver un programa de ejemplo, en el que se def\/ine una funci\'{o}n que permite 
+obtener los  elementos de una submatriz eliminando la fila 0 y las columnas 
+$0,1,\ldots,n-1$, v\'{e}ase la forma de utilizar la funci\'{o}n 
+\begin{verbatim} 
+float** sub_matrix_(struct matriz *M,int colAElim)
+{
+      int i,j;
+      float** R=(float**)malloc((M->m-1)*sizeof(float*));
+      for(i=0;i < M->m-1;++i)
+        R[i]=(float*)malloc((M->m-1)*sizeof(float));
+      for(i=1;i < M->m;++i)
+        for(j=0;j < M->n;++j){
+          if(j<colAElim){
+            R[i-1][j]=M->A[i][j];
+          }
+          if(j>colAElim){
+            R[i-1][j-1]=M->A[i][j];
+        }
+     }
+     return R;
+}
+\end{verbatim}
+en el archivo 
+\begin{verbatim}
+https://github.com/programacionestructurada/202110/
+ProgEst02/00_07_Submatrices/Submatrices.c
+\end{verbatim}
+\section{Determinante de una matriz}
+Dada una matriz $A\in R^{n\times n}$ se define su determinante con la siguiente 
+f\'{o}rmula recursiva:
+\[
+\mbox{det}(A) = \left\{
+\begin{array}{l}    
+a_{00}\mbox{\rm\ \ \ ,  si }n = 1\\
+a_{00}(-1)^{0+0}\mbox{det}(A_{00})+a_{01}(-1)^{0+1}\mbox{det}(A_{01})+\cdots\\
++ a_{0,n-1}(-1)^{0+n-1}\mbox{det}(A_{0,n-1})\mbox{\rm\ \ \ ,  si }n > 1
+\end{array}
+\right.
+\]
+Equivalentemente
+\[
+\mbox{det}(A) = \left\{
+\begin{array}{l}    
+a_{00}\mbox{\rm\ \ \ ,  si }n = 1\\
+\sum_{j=0}^{n-1}a_{0j}(-1)^{0+j}\mbox{det}(A_{0j})\mbox{\rm\ \ \ ,  si }n > 1
+\end{array}
+\right.
+\]
+\end{document}

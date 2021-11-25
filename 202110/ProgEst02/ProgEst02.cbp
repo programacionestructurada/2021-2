@@ -146,6 +146,20 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="00_09_MatrizInversa">
+				<Option output="bin/00_09_MatrizInversa/ProgEst02" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/00_09_MatrizInversa/" />
+				<Option object_output="obj/00_09_MatrizInversa/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -188,26 +202,36 @@
 		<Unit filename="00_08_MatrizInversa/copy_matriz.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_08_MatrizInversa/det.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_08_MatrizInversa/get_traspose.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_08_MatrizInversa/inverse_matrix.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_08_MatrizInversa/print_matriz.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_08_MatrizInversa/sub_matrix.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
+		</Unit>
+		<Unit filename="00_09_MatrizInversa/Test_InvMat.c">
+			<Option compilerVar="CC" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="01_MaxDTresEnteros/MaxDTresEnteros.c">
 			<Option compilerVar="CC" />
@@ -233,6 +257,7 @@
 		</Unit>
 		<Unit filename="include/struct_matriz.h">
 			<Option target="00_08_MatrizInversa" />
+			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />

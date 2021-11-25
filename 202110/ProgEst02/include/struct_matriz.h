@@ -44,7 +44,7 @@ float **get_traspose(float **A,unsigned int rows,unsigned int cols);
  * Make SUBMatrix ignoring row row & column col.
  * Esta funci\'on est\'a resuelta en el archivo sub_matrix.c
  */
-float **MSUBM(struct matriz *M, int row,int col);
+float **MSUBM(struct matriz *M,int row,int col);
 
 /**
  * Obtiene el determinante de la matriz M.

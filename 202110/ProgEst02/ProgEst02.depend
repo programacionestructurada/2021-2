@@ -40,7 +40,7 @@
 	<malloc.h>
 	<math.h>
 
-1637786176 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c
+1637813016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -50,7 +50,7 @@
 	<math.h>
 	"struct_matriz.h"
 
-1637813015 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
+1637868868 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
 	<stdlib.h>
 
 1637808952 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/get_traspose.c

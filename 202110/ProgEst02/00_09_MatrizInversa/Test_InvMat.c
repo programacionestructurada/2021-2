@@ -17,18 +17,18 @@ int main()
  printf("(utiliza la funci\\'on \
 struct matriz *inv(struct matriz *),\n");
  printf("que est\\'a resuelta en el archivo inverse_matrix.c)\n");
- printf("A =\n");
+ printf("Matriz original\nA =\n");
  print_matriz(MA);
  /** obtener la matriz inversa */
  struct matriz *MAinv = inv(MA);
- printf("\nA^{-1} =\n");
+ printf("Inversa de la matriz original\nA^{-1} =\n");
  print_matriz(MAinv);
 
  struct matriz *M_AxAinv = Mult(MA,MAinv);
- printf("\nAA^{-1} =\n");
+ printf("Multiplicaci\\'on de A por su inversa\nAA^{-1} =\n");
  print_matriz(M_AxAinv);
  struct matriz *M_AinvxA = Mult(MAinv,MA);
- printf("\nA^{-1}A =\n");
+ printf("Multiplicaci\\'on de la inversa de A por A\nA^{-1}A =\n");
  print_matriz(M_AinvxA);
 
  free(MA->A);

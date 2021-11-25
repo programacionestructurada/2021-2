@@ -61,7 +61,8 @@ array2x2Pt[k][1][0]=c[1][0];array2x2Pt[k][1][1]=c[1][1];
       }\
     }
 
-#define DET2x2(sm2x2) (sm2x2[0][0]*(sm2x2[1][1])-sm2x2[0][1]*(sm2x2[1][0]))
+#define DET2x2(sm2x2) \
+(sm2x2[0][0]*(sm2x2[1][1])-sm2x2[0][1]*(sm2x2[1][0]))
 
 #define M2x2name(i,j)  SM##i##j
 
@@ -106,12 +107,12 @@ int main(int argc, char *argv[])
 #ifndef LMC0
   for(k=0;k<3;k++){
     for(w=0;w<3;w++){
-  SUBM(k,w);//
+  SUBM(k,w);// float SM##fil##col[2][2]
     for(i=0;i<3;i++){
       for(j=0;j<3;j++){
         if(i<k && j<w){
 //          SM00[i][j]=A[i][j];
-          subm(k,w,i,j)=A[i][j];
+          subm(k,w,i,j)=A[i][j];//SM##k##w[i][j]
         }
         if(i<k && j>w){
 //          SM00[i][j-1]=A[i][j];
@@ -130,7 +131,7 @@ int main(int argc, char *argv[])
   for(i=0;i<2;i++){
       for(j=0;j<2;j++){
 //        printf("\t%f",SM00[i][j]);
-        printf("\t%f",subm(k,w,i,j));
+        printf("\t%f",subm(k,w,i,j));////SM##k##w[i][j]
       }
       printf("\n");
     }
@@ -234,7 +235,7 @@ int main(int argc, char *argv[])
   printf("Matriz de cofactores:\n");
   show_m3x3(MCof);
 
-  /*obtener matriz adjunta (transpuesta e la matriz de cofactores)*/
+  /*obtener matriz adjunta (transpuesta de la matriz de cofactores)*/
   Mcof(TrDMCof,3,3); /*float TrDMCof[3][3];*/
   transpuesta(3,3,MCof,TrDMCof);
   printf("Adjunta:\n");
@@ -257,6 +258,8 @@ int main(int argc, char *argv[])
   printf("A^{-1}A =\n");
   show_m3x3(C);
 #endif /* LMC1 */
+#ifndef __unix__
   system("PAUSE");
+#endif
   return 0;
 }//end main()

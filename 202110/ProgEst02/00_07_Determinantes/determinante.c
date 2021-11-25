@@ -3,8 +3,8 @@
 #include <math.h>
 
 struct matriz {
-	int m;
-	int n;
+	int m;      /** Num. de filas */
+	int n;      /** Num. de columnas */
 	float **A;
 };
 
@@ -31,7 +31,7 @@ void print_matriz(struct matriz *M)
 	int i, j;
 	for (i = 0; i < M->m; ++i) {
 		for (j = 0; j < M->n; ++j)
-			printf("%.2f\t", M->A[i][j]);
+			printf("%8.2f\t", M->A[i][j]);
 		printf("\n");
 	}
 }
@@ -41,14 +41,14 @@ float det(struct matriz *M)
 	int j;
 	float r = 0;
 	struct matriz *tmp;
-	tmp = malloc(sizeof(*tmp));
+	tmp = (struct matriz *)malloc(sizeof(*tmp));
 	tmp->m = tmp->n = M->m - 1;
 	if (M->m == 1)
 		return M->A[0][0];
 	if (M->n >= M->m) {
 		for (j = 0; j < M->m; ++j) {
 			tmp->A = sub_matrix(M, j);
-			r += pow(-1, j) * (M->A[0][j]) * det(tmp);
+			r += (M->A[0][j]) * pow(-1.0, j) * det(tmp);
 		}
 	}
 	return r;
@@ -72,7 +72,7 @@ int main(void)
 	PQ[1] = q;		// equivale a *(PQ+1) es de tipo float*
 
 	//float** PQ;//matriz de mxn
-	int i, j, m = 2, n = 2;
+	int i, j, m = 2;// n = 2;
 /*
 	for (i = 0; i < m; ++i) {
 		for (j = 0; j < n; ++j)
@@ -95,18 +95,22 @@ int main(void)
 	for(i = 0; i < 3; ++i)
 		for(j = 0; j < 3; ++j)
 			*(*(F + i) + j) = i + j;
+	F[0][0] = 1;
 	SM.m = SM.n = 3;
-        SM.A = F;
+  #if 0 //2021.11.24
+    SM.A = F;
+  #endif // 0
 	printf("\n");
 
 	print_matriz(&SM);
 	printf("\n");
 
 	printf("det(&SM) = %.2f\n", det(&SM));
-        
+
 #ifndef __unix__
 	system("pause");
 #endif
+    free(SM.A);
 	return 0;
 
 }				//End main()

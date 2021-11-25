@@ -35,3 +35,54 @@
 	<stdio.h>
 	<malloc.h>
 
+1637782025 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_Determinantes/determinante.c
+	<stdio.h>
+	<malloc.h>
+	<math.h>
+
+1637786176 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1637808901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/det.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637813015 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
+	<stdlib.h>
+
+1637808952 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/get_traspose.c
+	<stdlib.h>
+	"struct_matriz.h"
+
+1637813016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637806844 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/print_matriz.c
+	<stdio.h>
+	"struct_matriz.h"
+
+1637808295 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/copy_matriz.c
+	<stdlib.h>
+	"struct_matriz.h"
+
+1637807093 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/sub_matrix.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637813638 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/Test_inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"struct_matriz.h"
+
+1637814428 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_09_MatrizInversa/Test_InvMat.c
+	<stdio.h>
+	<stdlib.h>
+	"struct_matriz.h"
+

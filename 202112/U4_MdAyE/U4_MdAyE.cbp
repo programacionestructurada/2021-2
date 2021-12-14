@@ -28,6 +28,71 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="02_MemoriaDinamica">
+				<Option output="bin/02_MemoriaDinamica/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02_MemoriaDinamica/" />
+				<Option object_output="obj/02_MemoriaDinamica/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="03_ApuntadorAArreglo">
+				<Option output="bin/03_ApuntadorAArreglo/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/03_ApuntadorAArreglo/" />
+				<Option object_output="obj/03_ApuntadorAArreglo/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="04_ArreglosDApuntadores">
+				<Option output="bin/04_ArreglosDApuntadores/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/04_ArreglosDApuntadores/" />
+				<Option object_output="obj/04_ArreglosDApuntadores/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05_ApuntadoresAFuncion">
+				<Option output="bin/05_ApuntadoresAFuncion/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/05_ApuntadoresAFuncion/" />
+				<Option object_output="obj/05_ApuntadoresAFuncion/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="06_ParametrosPorValorYPorReferencia">
+				<Option output="bin/06_ParametrosPorValorYPorReferencia/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/06_ParametrosPorValorYPorReferencia/" />
+				<Option object_output="obj/06_ParametrosPorValorYPorReferencia/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -35,6 +100,42 @@
 		<Unit filename="01_Apuntadores/Apuntadores.c">
 			<Option compilerVar="CC" />
 			<Option target="01_Apuntadores" />
+		</Unit>
+		<Unit filename="02_MemoriaDinamica/4_1_1_MemoriaDinamica.c">
+			<Option compilerVar="CC" />
+			<Option target="02_MemoriaDinamica" />
+		</Unit>
+		<Unit filename="02_MemoriaDinamica/tipo.c">
+			<Option compilerVar="CC" />
+			<Option target="02_MemoriaDinamica" />
+			<Option target="04_ArreglosDApuntadores" />
+		</Unit>
+		<Unit filename="03_ApuntadorAArreglo/4_1_3_Direccionamiento.c">
+			<Option compilerVar="CC" />
+			<Option target="03_ApuntadorAArreglo" />
+		</Unit>
+		<Unit filename="04_ArreglosDApuntadores/4_1_5_ArrDApuntadores.c">
+			<Option compilerVar="CC" />
+			<Option target="04_ArreglosDApuntadores" />
+		</Unit>
+		<Unit filename="05_ApuntadoresAFuncion/Combinaciones.c">
+			<Option compilerVar="CC" />
+			<Option target="05_ApuntadoresAFuncion" />
+		</Unit>
+		<Unit filename="05_ApuntadoresAFuncion/Factorial.c">
+			<Option compilerVar="CC" />
+			<Option target="05_ApuntadoresAFuncion" />
+		</Unit>
+		<Unit filename="05_ApuntadoresAFuncion/TestFactorial.c">
+			<Option compilerVar="CC" />
+			<Option target="05_ApuntadoresAFuncion" />
+		</Unit>
+		<Unit filename="06_ParametrosPorValorYPorReferencia/4_1_7_y_4_1_8.c">
+			<Option compilerVar="CC" />
+			<Option target="06_ParametrosPorValorYPorReferencia" />
+		</Unit>
+		<Unit filename="include/tipo.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

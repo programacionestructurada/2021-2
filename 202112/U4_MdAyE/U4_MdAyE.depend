@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1638562755 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/4_1_1_MemoriaDinamica.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/tipo.h"
+
+1639165384 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/tipo.h
+
+1638993085 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/tipo.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/tipo.h"
+
+1639165471 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/04_ArreglosDApuntadores/4_1_5_ArrDApuntadores.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/tipo.h"
+
+1637956417 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/05_ApuntadoresAFuncion/Factorial.c
+
+1639166663 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/05_ApuntadoresAFuncion/Combinaciones.c
+	"../include/funciones.h"
+
+1637957973 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/funciones.h
+	<stdio.h>
+

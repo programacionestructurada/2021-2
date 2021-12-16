@@ -21,12 +21,14 @@ int main(){
  /** Calculando combinaciones usando la funci\'on FactorialIte() */
  C = Combinaciones(FactorialIte,N,K);
  printf("Combinaciones(%s,%li,%li) = %li\n","FactorialIte",N,K,C);
+ /** Calculando combinaciones usando la funci\'on Factorial() */
  C = Combinaciones(Factorial,N,K);
  printf("Combinaciones(%s,%li,%li) = %li\n","Factorial",N,K,C);
 #else // <----Estas dos variantes son equivalentes
  /** Calculando combinaciones usando la funci\'on FactorialIte() */
  C = Combinaciones(&FactorialIte,N,K);
  printf("Combinaciones(%s,%li,%li) = %li\n","FactorialIte",N,K,C);
+ /** Calculando combinaciones usando la funci\'on Factorial() */
  C = Combinaciones(&Factorial,N,K);
  printf("Combinaciones(%s,%li,%li) = %li\n","Factorial",N,K,C);
 #endif

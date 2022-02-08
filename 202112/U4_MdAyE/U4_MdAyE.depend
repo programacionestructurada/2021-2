@@ -4,9 +4,9 @@
 	<stdlib.h>
 	"../include/tipo.h"
 
-1639165384 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/tipo.h
+1639769644 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/tipo.h
 
-1638993460 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/tipo.c
+1639769644 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/tipo.c
 	<stdio.h>
 	<stdlib.h>
 	"../include/tipo.h"
@@ -21,6 +21,26 @@
 1639166663 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/05_ApuntadoresAFuncion/Combinaciones.c
 	"../include/funciones.h"
 
-1637957973 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/funciones.h
+1639683867 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/funciones.h
 	<stdio.h>
+
+1639673937 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/01_Apuntadores/Apuntadores.c
+	<stdio.h>
+
+1638995591 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/03_ApuntadorAArreglo/4_1_3_Direccionamiento.c
+	<stdio.h>
+
+1639685057 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/06_ParametrosPorValorYPorReferencia/4_1_7_y_4_1_8.c
+	<stdio.h>
+
+1639685997 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/07_ApuntadoresYCadenas/4_1_9_ApuntadoresYCadenas.c
+	<stdio.h>
+
+1638556872 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1639751731 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/4_2_5_ApuntadoresAEstructuras/4_2_5_ApuntadoresAEstructura.c
+	<stdio.h>
+	<string.h>
 

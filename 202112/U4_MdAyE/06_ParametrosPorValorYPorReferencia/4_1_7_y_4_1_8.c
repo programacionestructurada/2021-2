@@ -23,7 +23,7 @@ int main(){
  printf("y paso de par\\'ametros por valor");
  printf("\nx = %d, y = %d",x,y);
  swap0(x,y);/** se pasan los par\'ametros por valor. */
- printf("\nx = %d, y = %d",x,y);
+ printf("\nx = %d, y = %d",x,y); /** 200, 100 */
 
  return 0;
 }/*end main()*/

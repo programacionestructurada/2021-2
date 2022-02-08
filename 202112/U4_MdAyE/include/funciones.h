@@ -24,8 +24,11 @@ long int FactorialIte(long int n);
  * k a la vez.
  * Combinaciones(n,k) = \frac{n!}{k!(n-k)!}
  */
-long int Combinaciones(long int (*F)(long int n),long int n,long int k);
-
+#if 0
+long int Combinaciones(long int (*F)(long int n),long int n,long int n);
+#else
+long int Combinaciones(long int (*)(long int),long int,long int);
+#endif
 /**
  * Funci\'on que devuelve dos valores.
  */

@@ -4,6 +4,13 @@
 Combinaciones
 Comb(n,k) = \frac{n!}{k!(n-k)!}
 */
+//typedef int (*f_p)(int,int) f_ptr;  /** syntax error */
+typedef int (*f_ptr)(int,int);        /** OK */
+int suma(int a,int b)
+{
+ return a + b;
+}
+
 
 int main(){
  long int N,K,C;
@@ -31,6 +38,14 @@ int main(){
  /** Calculando combinaciones usando la funci\'on Factorial() */
  C = Combinaciones(&Factorial,N,K);
  printf("Combinaciones(%s,%li,%li) = %li\n","Factorial",N,K,C);
+#endif
+ f_ptr fn_p = suma;
+ printf("\n/*************************************/\n");
+ printf("Otro ejemplo de apuntador a funci\\'on\n");
+#if 1
+ printf("%d + %d = %d\n",100,200,fn_p(100,200));
+#else
+ printf("%d + %d = %d\n",100,200,(*fn_p)(100,200));
 #endif
  return 0;
 }/*end main()*/

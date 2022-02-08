@@ -93,6 +93,97 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="4_2_1_EstructurasSimples">
+				<Option output="bin/4_2_1_EstructurasSimples/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_1_EstructurasSimples/" />
+				<Option object_output="obj/4_2_1_EstructurasSimples/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="4_2_2_EstructurasComplejas">
+				<Option output="bin/4_2_2_EstructurasComplejas/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_2_EstructurasComplejas/" />
+				<Option object_output="obj/4_2_2_EstructurasComplejas/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="4_2_3_EstructuraDentroDUnaEstructura">
+				<Option output="bin/4_2_3_EstructuraDentroDUnaEstructura/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_3_EstructuraDentroDUnaEstructura/" />
+				<Option object_output="obj/4_2_3_EstructuraDentroDUnaEstructura/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="4_2_4_ArregloDEstructuras">
+				<Option output="bin/4_2_4_ArregloDEstructuras/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_4_ArregloDEstructuras/" />
+				<Option object_output="obj/4_2_4_ArregloDEstructuras/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="4_2_5_ApuntadoresAEstructuras">
+				<Option output="bin/4_2_5_ApuntadoresAEstructuras/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_5_ApuntadoresAEstructuras/" />
+				<Option object_output="obj/4_2_5_ApuntadoresAEstructuras/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="07_ApuntaoresYCadenas">
+				<Option output="bin/07_ApuntaoresYCadenas/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/07_ApuntaoresYCadenas/" />
+				<Option object_output="obj/07_ApuntaoresYCadenas/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas">
+				<Option output="bin/4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas/U4_MdAyE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas/" />
+				<Option object_output="obj/4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -100,46 +191,99 @@
 		<Unit filename="01_Apuntadores/Apuntadores.c">
 			<Option compilerVar="CC" />
 			<Option target="01_Apuntadores" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="02_MemoriaDinamica/4_1_1_MemoriaDinamica.c">
 			<Option compilerVar="CC" />
 			<Option target="02_MemoriaDinamica" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="02_MemoriaDinamica/tipo.c">
 			<Option compilerVar="CC" />
 			<Option target="02_MemoriaDinamica" />
 			<Option target="04_ArreglosDApuntadores" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
+			<Option target="4_2_1_EstructurasSimples" />
 		</Unit>
 		<Unit filename="03_ApuntadorAArreglo/4_1_3_Direccionamiento.c">
 			<Option compilerVar="CC" />
 			<Option target="03_ApuntadorAArreglo" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="04_ArreglosDApuntadores/4_1_5_ArrDApuntadores.c">
 			<Option compilerVar="CC" />
 			<Option target="04_ArreglosDApuntadores" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="05_ApuntadoresAFuncion/Combinaciones.c">
 			<Option compilerVar="CC" />
 			<Option target="05_ApuntadoresAFuncion" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="05_ApuntadoresAFuncion/Factorial.c">
 			<Option compilerVar="CC" />
 			<Option target="05_ApuntadoresAFuncion" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="05_ApuntadoresAFuncion/TestFactorial.c">
 			<Option compilerVar="CC" />
 			<Option target="05_ApuntadoresAFuncion" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="06_ParametrosPorValorYPorReferencia/4_1_7_y_4_1_8.c">
 			<Option compilerVar="CC" />
 			<Option target="06_ParametrosPorValorYPorReferencia" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
+		</Unit>
+		<Unit filename="07_ApuntadoresYCadenas/4_1_9_ApuntadoresYCadenas.c">
+			<Option compilerVar="CC" />
+			<Option target="07_ApuntaoresYCadenas" />
+		</Unit>
+		<Unit filename="4_2_1_EstructurasEimples/4_2_1_EStructurasSimples.c">
+			<Option compilerVar="CC" />
+			<Option target="4_2_1_EstructurasSimples" />
+		</Unit>
+		<Unit filename="4_2_2_EstructurasComplejas/4_2_2_EstructurasComplejas.c">
+			<Option compilerVar="CC" />
+			<Option target="4_2_2_EstructurasComplejas" />
+		</Unit>
+		<Unit filename="4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas/4_2_2_y_4_2_3.c">
+			<Option compilerVar="CC" />
+			<Option target="4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas" />
+		</Unit>
+		<Unit filename="4_2_5_ApuntadoresAEstructuras/4_2_5_ApuntadoresAEstructura.c">
+			<Option compilerVar="CC" />
+			<Option target="4_2_5_ApuntadoresAEstructuras" />
 		</Unit>
 		<Unit filename="include/tipo.h">
-			<Option target="&lt;{~None~}&gt;" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 			<Option target="Debug" />
+			<Option target="4_2_2_EstructurasComplejas" />
+			<Option target="4_2_3_EstructuraDentroDUnaEstructura" />
+			<Option target="4_2_4_ArregloDEstructuras" />
 		</Unit>
 		<Extensions />
 	</Project>

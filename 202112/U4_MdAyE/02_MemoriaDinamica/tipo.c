@@ -23,8 +23,8 @@ void init_conjunto_dints(struct conjunto_dints *p)
   //ESCRIBA SU CODIGO AQUI
   //Pedir la cantidad de enteros (p->n) en tiempo de ejecuci\'on
   //Inicializar el apuntador p->N
-  //Leer la cantidad p->n de entersos y almacenarlos en las
-  //localidades correspondiente (si k es un \'indice v\'alido,
+  //Leer la cantidad p->n de enteros y almacenarlos en las
+  //localidades correspondientes (si k es un \'indice v\'alido,
   //en la variable p->N[k] (equivalentemente, en *(p->N + k))
   #if 1 //LMC 2021.12.08
   /** Stub (provisional para prueba r\'apida)*/
@@ -40,4 +40,18 @@ void init_conjunto_dints(struct conjunto_dints *p)
    #endif
   }
   #endif
+}
+
+void print_point(struct point P){
+ printf("(%5d,%5d)",P.x,P.y);
+}
+
+void init_point(point *a,int X,int Y){
+#if 0
+ (*a).x = X;
+ (*a).y = Y;
+#else
+ a->x = X;
+ a->y = Y;
+#endif
 }

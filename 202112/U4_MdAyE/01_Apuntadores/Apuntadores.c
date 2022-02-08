@@ -1,4 +1,4 @@
-/** Apuntadores.c - Muestra es uso b\'asico de apuntadores */
+/** Apuntadores.c - Muestra el uso b\'asico de apuntadores */
 #include <stdio.h>
 
 int main()

@@ -49,6 +49,8 @@ int main(){
  char line = '\x0A';   /** notaci\'on hexadecimal */
 #endif // FORMA
  printf("First line%cSecond line",line);
-
+ 
  return 0;
 }/*end main()*/
+
+

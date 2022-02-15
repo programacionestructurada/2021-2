@@ -1,0 +1,31 @@
+                                           Martes 15 de febrero de 2022
+Para usar el archivo KConfig, se debe usar
+kconfig-mconf KConfig
+
+PARA CREAR EL ARCHIVO include/generated/autoconf.h, se debe ejecutar
+./scripts/kconfig/conf --silentoldconfig KConfig
+
+Posteriormente, el archivo autoconf.h generado con el comando anterior, 
+se puede incluir en los archivos fuente donde se requiera con un comando 
+como el siguiente:
+gcc ... -include include/generated/autoconf.h ... <somefile.c>
+
+Y si no son muchos archivos fuente en los que se ocupe incluir autoconf.h,
+se pueden incluir agregando manualmente la directiva
+#include <path>/autoconf.h
+
+                                             Martes 15 de febrero de 2022
+Con el siguiente archivo make:
+<code>
+default:
+	@echo "Use make menuconfig para configurar el proyecto"
+menuconfig:
+	kconfig-mconf KConfig
+	./scripts/kconfig/conf --silentoldconfig KConfig
+</code>
+la configuraci\'on se puede hacer tecleando:
+$ make menuconfig
+
+NOTA: para que el comando ./scripts/kconfig/conf --silentoldconfig KConfig
+se pueda ejecutar, debe existir el directorio ./include/generated/, ya que 
+ah\'i es donde se crear\'a el archivo autoconf.h 

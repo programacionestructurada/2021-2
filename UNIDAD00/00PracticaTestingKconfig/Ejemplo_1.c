@@ -1,4 +1,5 @@
 #include <stdio.h>         /* comment */
+
 #ifdef CONFIG_EJEMPLO___I
 int main(void)
 {

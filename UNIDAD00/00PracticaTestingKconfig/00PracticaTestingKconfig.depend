@@ -1,11 +1,18 @@
 # depslib dependency file v1.0
-1644952854 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_1.c
+1645028416 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_1.c
 	<stdio.h>
 
-1644954410 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_2.c
+1645028453 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_2.c
 	<stdio.h>
 
-1644955602 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_3.c
+1645028481 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_3.c
 	<stdio.h>
 	<limits.h>
+
+1645028500 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_4.c
+	<stdio.h>
+	<limits.h>
+
+1645028630 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_5.c
+	<stdio.h>
 

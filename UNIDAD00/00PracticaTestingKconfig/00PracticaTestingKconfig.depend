@@ -1,18 +1,44 @@
 # depslib dependency file v1.0
-1645028416 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_1.c
+1645051455 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_1.c
 	<stdio.h>
 
-1645028453 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_2.c
+1645052351 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_2.c
 	<stdio.h>
 
-1645028481 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_3.c
-	<stdio.h>
-	<limits.h>
-
-1645028500 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_4.c
+1645053286 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_3.c
 	<stdio.h>
 	<limits.h>
 
-1645028630 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_5.c
+1645053552 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_4.c
+	<stdio.h>
+	<limits.h>
+
+1645131957 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_5.c
+	<stdio.h>
+
+1645132578 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_6.c
+	<stdio.h>
+	<float.h>
+
+1645134465 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_6a.c
+	<stdio.h>
+
+1645117595 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_7.c
+	<stdio.h>
+	<limits.h>
+
+1645119406 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_8.c
+	<stdio.h>
+
+1645123388 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v1.c
+	<stdio.h>
+
+1645128303 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9.c
+	<stdio.h>
+
+1645125544 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v2.c
+	<stdio.h>
+
+1645127855 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v3.c
 	<stdio.h>
 

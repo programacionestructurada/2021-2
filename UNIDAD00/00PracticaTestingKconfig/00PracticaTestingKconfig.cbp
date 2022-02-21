@@ -32,6 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-include include/generated/autoconf.h" />
 		</Compiler>
+		<Unit filename="Ejemplo10.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo11.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="Ejemplo_1.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
@@ -53,6 +61,34 @@
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="Ejemplo_6.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_6a.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_7.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_8.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_9.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_9v1.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_9v2.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo_9v3.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>

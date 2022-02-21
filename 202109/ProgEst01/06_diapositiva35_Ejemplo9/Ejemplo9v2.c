@@ -15,19 +15,28 @@ int main() {
  short int b = 10; /** a = 0x100, b = 0x000a */
  char *cP;/** En print_four_bytes_in_hex(b); 0x000a se
               promover\'a a 0x0000000a */
+ printf("C\\'odigo fuente: Ejemplo9v2.c\n");
+ printf("Imprime en hexadecimal, bytes que est\'an en el ");
+ printf("address space del proceso.\n");
  /*******************************************************/
+ printf("\nSe imprimen los bytes alto y bajo del short int b.\n");
  print_hex_digits((char)((b>>8)&0x00ff));
  printf(" ");
  print_hex_digits((char)((b)&0x00ff));
  /*******************************************************/
  cP = (char*)(&b)+2;/**dir del byte "que sigue" a 0x0a */
+ printf("\n\nSe imprimen los bytes en: \
+(char*)(&b)+2, (char*)(&b)+1, y (char*)(&b)+0.");
  printf("\n");
  print_hex_digits((char)((*cP)&0x00ff));
+ printf(" ");
  print_hex_digits((char)((b>>8)&0x00ff));
  printf(" ");
  print_hex_digits((char)((b)&0x00ff));
  /********************************************************/
  /** 2021.10.01 */
+ printf("\n\nSe imprimen los bytes en: \
+(char*)(&b)+3, (char*)(&b)+2, (char*)(&b)+1, y (char*)(&b)+0.");
  cP = (char*)(&b)+3;                       /** Reescribir */
  printf("\n");                             /** estas */
  print_hex_digits((char)((*cP)&0x00ff));   /** l\'ineas */
@@ -39,8 +48,13 @@ int main() {
  printf(" ");                              /** */
  print_hex_digits((char)((b)&0x00ff));     /** */
  /*******************************************************/
+ printf("\n\nAl pasar el short int b, como argumento a una \
+ funci\\'on que espera recibir \nun int, el valor short int \
+ (de dos bytes) almacenado en b \'se promueve\' a\nun valor \
+ int (de cuatro bytes)\n");
  printf("\nprint_four_bytes_in_hex(b):\n");
  print_four_bytes_in_hex(b);
+ printf("\n");
 
  //printf("a = %hi, b = %f\n",a,
  //       *((float *)(&b)));
@@ -48,6 +62,10 @@ int main() {
  return 0;
 }/*end main()*/
 
+/**
+ * Funci\'on que imprime el valor num\'erico de
+ * un caracter en hexadecimal.
+ */
 void print_hex_digits(char c){
   char i2c[]={'0','1','2','3','4','5','6','7',\
               '8','9','a','b','c','d','e','f' };

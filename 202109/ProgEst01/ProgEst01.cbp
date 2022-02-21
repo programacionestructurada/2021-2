@@ -157,9 +157,6 @@
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
-				<!-- <Linker>
-					<Add option="-s" />
-				</Linker> -->
 			</Target>
 		</Build>
 		<Compiler>

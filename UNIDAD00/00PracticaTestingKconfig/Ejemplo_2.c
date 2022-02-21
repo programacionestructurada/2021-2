@@ -5,7 +5,7 @@ int main(void)
 {
  int a,b;
 
- printf("Enter two numbers: ");
+ printf("Enter two numbers: ");/**printf(char *,...);*/
  scanf("%i %i",&a,&b);
 
  printf("%i - %i = %i\n",a,b,a-b);

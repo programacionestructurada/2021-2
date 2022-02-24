@@ -46,7 +46,21 @@ config EJEMPLO__VI_A
       sum.
 
 config EJEMPLO_VII
-    bool "Ejemplo 7 programa que muestra OVERFLOW al imprimir una variable"
+    bool "Ejemplo 7, programa que muestra declaraci\\'on de constantes con nombre"
+    default n
+    help
+      Se selecciona el programa del ejemplo 8 de la presentaci\'on. El programa muestra 
+      c\'omo se declaran constantes con nombre.
+
+config EJEMPLO_VII_ERROR_DCOMPILACION
+    bool "Error de compilaci\'on, por intentar modificar una constante con nombre"
+    depends on EJEMPLO_VII
+    help
+      Se muestra que el compilador marca error de compilaci\'on si intentamos modificar 
+      el valor de una constante con nombre.
+
+config EJEMPLO_VIII
+    bool "Ejemplo 8 programa que muestra OVERFLOW al imprimir una variable"
     default n
     help
       Se selecciona el programa del ejemplo 7 de la presentaci\'on. El programa 
@@ -58,7 +72,7 @@ config EJEMPLO_VII
 
 config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION
      bool "Overflow al inicializar la variable unsigned long long ull, (usando LLONG_MAX+1)"
-     depends on EJEMPLO_VII
+     depends on EJEMPLO_VIII
      help
        Al inicializar la variable ull, de tipo unsigned long long, con la constante
        (unsigned long long)(LLONG_MAX+1), se obtiene un warning de overflow en tiempo 
@@ -66,7 +80,7 @@ config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION
 
 config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION_A
      bool "Integer constant so large al inicializar la variable unsigned long long ulli, (usando valor num\\'erico)"
-     depends on EJEMPLO_VII
+     depends on EJEMPLO_VIII
      help
        Al inicializar la variable ull, de tipo unsigned long long, con la constante
        (unsigned long long)(LLONG_MAX+1), pero esta vez escrito num\'ericamente en la 
@@ -75,25 +89,12 @@ config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION_A
 
 config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION_B
      bool "Overflow al inicializar la variable double g"
-     depends on EJEMPLO_VII
+     depends on EJEMPLO_VIII
      help
        Al inicializar la variable g, de tipo double, con la constante
        (unsigned long long)(LLONG_MAX+1), se obtiene un warning de overflow en tiempo 
        de compilaci\\'on.
 
-config EJEMPLO_VIII
-    bool "Ejemplo 8, programa que muestra declaraci\\'on de constantes con nombre"
-    default n
-    help
-      Se selecciona el programa del ejemplo 8 de la presentaci\'on. El programa muestra 
-      c\'omo se dclaran constantes con nombre.
-
-config EJEMPLO_VIII_ERROR_DCOMPILACION
-    bool "Error de compilaci\'on, por intentar modificar una constante con nombre"
-    depends on EJEMPLO_VIII
-    help
-      Se muestra que el compilador marca error de compilaci\'on si intentamos modificar 
-      el valor de una constante con nombre.
 config EJEMPLO__IX
     bool "Ejemplo 9, versi\\'on 0. Imprime bytes en hexadecimal"
     default n

@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #ifdef CONFIG_EJEMPLO__XI
 int main(void)
 {
@@ -11,7 +13,7 @@ int main(void)
 
  f = i / (double)j;
 #ifdef CONFIG_EJEMPLO__XI_PRINTF
- printf("f = i / (double)j = %f\n",,f);
+ printf("f = i / (double)j = %f\n",f);
 #endif // CONFIG_EJEMPLO__XI_PRINTF
 
  f = (double)i / (double)j;

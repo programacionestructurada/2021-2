@@ -23,12 +23,12 @@
 1645134465 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_6a.c
 	<stdio.h>
 
-1645117595 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_7.c
+1645542775 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_7.c
+	<stdio.h>
+
+1645542770 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_8.c
 	<stdio.h>
 	<limits.h>
-
-1645119406 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_8.c
-	<stdio.h>
 
 1645123388 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v1.c
 	<stdio.h>
@@ -40,5 +40,11 @@
 	<stdio.h>
 
 1645127855 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v3.c
+	<stdio.h>
+
+1645544540 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo10.c
+	<stdio.h>
+
+1645547515 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo11.c
 	<stdio.h>
 

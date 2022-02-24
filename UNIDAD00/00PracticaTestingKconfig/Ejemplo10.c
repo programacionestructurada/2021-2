@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #ifdef CONFIG_EJEMPLO___X
 int main(void)
 {
@@ -6,7 +8,7 @@ int main(void)
 
  k = i / j;
 #ifdef CONFIG_EJEMPLO___X_PRINTF
- printf("k=%f\n",k);
+ printf("k=%i\n",k);
 #endif
  h = f / g;
 #ifdef CONFIG_EJEMPLO___X_PRINTF

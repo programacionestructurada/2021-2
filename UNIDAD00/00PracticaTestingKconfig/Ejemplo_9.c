@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/#ifdef CONFIG_EJEMPLO__IX
+#ifdef CONFIG_EJEMPLO__IX
 int main(void)
 {
  short a= 256,b=10;

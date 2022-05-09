@@ -79,6 +79,11 @@ for(i=0;i<n;i++)\
     M[i][j]=s*(M[i][j]);
 
 /*Matrix C must be initially full with zeros*/
+/** @param n filas de la primera matriz
+ *  @param m columnas de la primera matriz
+ *  @param m filas de la segunda matriz
+ *  @param t columnas de la segunda matriz
+ */
 #define Mult(A,B,C,n,m,t)       \
 for(i=0;i<n;i++)\
   for(j=0;j<t;j++)\

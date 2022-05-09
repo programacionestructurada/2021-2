@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1649712805 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.c
+	<stdio.h>
+	<stdlib.h>
+

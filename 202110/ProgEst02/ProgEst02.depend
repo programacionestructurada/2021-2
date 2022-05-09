@@ -27,18 +27,21 @@
 	<stdio.h>
 	<stdlib.h>
 
-1637262796 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_06_Traspuesta/TraspuestaDMatrices.c
+1649114536 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_06_Traspuesta/TraspuestaDMatrices.c
 	<stdio.h>
 	<stdlib.h>
+	"../include/ProgEst02_util.h"
 
-1637764168 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_Submatrices/Submatrices.c
+1649713164 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_Submatrices/Submatrices.c
 	<stdio.h>
 	<malloc.h>
+	"../include/ProgEst02_util.h"
 
-1637782025 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_Determinantes/determinante.c
+1649361567 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_Determinantes/determinante.c
 	<stdio.h>
 	<malloc.h>
 	<math.h>
+	"../include/ProgEst02_util.h"
 
 1637813016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c
 	<stdio.h>
@@ -50,7 +53,7 @@
 	<math.h>
 	"struct_matriz.h"
 
-1637868868 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
+1649769805 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
 	<stdlib.h>
 
 1637808952 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/get_traspose.c
@@ -67,22 +70,66 @@
 	<stdio.h>
 	"struct_matriz.h"
 
-1637808295 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/copy_matriz.c
+1649362172 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/copy_matriz.c
 	<stdlib.h>
-	"struct_matriz.h"
+	"../include/struct_matriz.h"
 
-1637807093 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/sub_matrix.c
+1637870131 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/sub_matrix.c
 	<stdlib.h>
 	<math.h>
 	"struct_matriz.h"
 
-1637813638 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/Test_inverse_matrix.c
+1649719067 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_08_MatrizInversa/Test_inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"struct_matriz.h"
+	"../include/ProgEst02_util.h"
+
+1637860362 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_09_MatrizInversa/Test_InvMat.c
 	<stdio.h>
 	<stdlib.h>
 	"struct_matriz.h"
 
-1637814428 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_09_MatrizInversa/Test_InvMat.c
+1636581961 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_02_Burbuja/sort_burbuja.c
+	<stdio.h>
+	<stdint.h>
+
+1648507139 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_01_Arreglos/arreglos_unidimensionales.c
+	<stdio.h>
+	<string.h>
+
+1636662262 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/00_04_SumaDVectores/SumaDVectores.c
 	<stdio.h>
 	<stdlib.h>
+
+1649769672 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/ProgEst02_util.h
+	"struct_matriz.h"
+
+1649113498 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/ProgEst02_util.c
+	<stdlib.h>
+	"./include/ProgEst02_util.h"
+
+1649362172 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/copy_matriz.c
+	<stdlib.h>
+	"../include/struct_matriz.h"
+
+1637808901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/det.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637808952 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/get_traspose.c
+	<stdlib.h>
+	"struct_matriz.h"
+
+1637813016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637870131 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/sub_matrix.c
+	<stdlib.h>
+	<math.h>
 	"struct_matriz.h"
 

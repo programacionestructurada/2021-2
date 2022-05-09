@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1646964370 source:/home/usuario/Documentos/IntroProgUnidad02/main.c
+	<stdio.h>
+	<stdlib.h>
+	"IntroProgUnidad02_util.h"
+
+1646946318 source:/home/usuario/Documentos/IntroProgUnidad02/TestFor.c
+	<stdio.h>
+
+1646963127 source:/home/usuario/Documentos/IntroProgUnidad02/IntroProgUnidad02_util.c
+	<stdio.h>
+
+1646963101 /home/usuario/Documentos/IntroProgUnidad02/IntroProgUnidad02_util.h
+

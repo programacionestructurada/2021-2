@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1650905073 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/Rel_Tema_PPTX/RThemePPTX_IntroProg.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../5.2_Archivos/UnidadTema.h"
+	"IntroProg_data.c"
+
+1650863877 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/5.2_Archivos/UnidadTema.h
+
+1650906783 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/Rel_Tema_PPTX/IntroProg_data.c
+
+1650994877 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/IntroProgRel_Tema_PPTX/RThemePPTX_IntroProg.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../5.2_Archivos/UnidadTema.h"
+	"IntroProg_dataNfunctions.c"
+
+1650920399 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/IntroProgRel_Tema_PPTX/IntroProg_data.c
+
+1650998638 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/IntroProgRel_Tema_PPTX/IntroProg_dataNfunctions.c
+

@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <math.h>
+#include "../include/ProgEst02_util.h"
 
-struct matriz {
-	int m;      /** Num. de filas */
-	int n;      /** Num. de columnas */
-	float **A;
-};
+//struct matriz {
+//	int m;      /** Num. de filas */
+//	int n;      /** Num. de columnas */
+//	float **A;
+//};
+//Se usar\'a la declaraci\'on en "../include/struct_matriz.h",
+//incluido en "../include/ProgEst02_util.h"
 
 float **sub_matrix(struct matriz *M, int colAElim)
 {
@@ -97,7 +100,8 @@ int main(void)
 			*(*(F + i) + j) = i + j;
 	F[0][0] = 1;
 	SM.m = SM.n = 3;
-  #if 0 //2021.11.24
+  //#if 0 //2021.11.24
+  #if 1 //2022.04.06
     SM.A = F;
   #endif // 0
 	printf("\n");
@@ -107,6 +111,11 @@ int main(void)
 
 	printf("det(&SM) = %.2f\n", det(&SM));
 
+	struct matriz SN;
+	//SN.A = get_matrix_pointer(SM.m,SM.n);
+	copy_matriz(&SN,&SM);
+	print_matriz(&SN);
+	printf("det(&SN) = %.2f\n", det(&SN));
 #ifndef __unix__
 	system("pause");
 #endif

@@ -2,4 +2,4 @@
  * Automatically generated C config: don't edit
  * Linux Kernel Configuration
  */
-#define CONFIG_EJEMPLO__IX 1
+#define CONFIG_EJEMPLO___V 1

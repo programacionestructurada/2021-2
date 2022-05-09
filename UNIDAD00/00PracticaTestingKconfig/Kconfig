@@ -152,3 +152,60 @@ config EJEMPLO__XI_PRINTF
       El programa muestra asignaciones del resultado de operaciones enteras a una variable de 
       a una variable de tipo float, pero usando cast.
 
+config EJEMPLO_DEBUGME
+    bool "Ejemplo debugme.c para ejemplificar el uso del depurador en Codeblocks"
+    default n
+    help
+      Se usa el archivo debugme.c para ejeplificar el uso del depurador GDB en Codeclocks.
+
+config DEBUGME_CON_ERROR_EN_INDICE
+    bool "Incluir error en \'indice para depuraci\'on"
+    depends on EJEMPLO_DEBUGME
+    help 
+      El archivo fuente incluye un error en un \'indice para ejemplificar el uso del depurador 
+      en Codeblocks.
+
+config DEBUGME_SIN_ERROR_EN_INDICE
+    bool "No incluir error en \\'indice para depuraci\\'on"
+    depends on EJEMPLO_DEBUGME
+    help 
+      El archivo fuente no incluye un error en un \'indice para ejemplificar el uso del depurador 
+      en Codeblocks.
+
+config EJEMPLO_XII
+    bool "Ejemplo12.c Prefix and Postfix"
+    default n
+    help
+      El archivo fuente Ejemplo12.c ejemplifica el uso del operador ++ como prefijo, y como 
+      postfijo.
+
+config EJEMPLO_XIII
+    bool "Ejemplo13.c Bitwise Example"
+    default n
+    help
+      El archivo fuente Ejemplo13.c ejemplifica el uso de los operadores a nivel de bits. 
+
+config EJEMPLO__XIV
+    bool "Ejemplo14.c Warning!"
+    default n
+    help
+      El archivo fuente Ejemplo14.c ejemplifica un error por usar '=' en lugar de '=='.
+
+config EJEMPLO___XV
+    bool "Ejemplo15.c sizeof Operator"
+    default n
+    help
+      El archivo fuente Ejemplo15.c ejemplifica el operador sizeof.
+
+config EJEMPLO__XVI
+    bool "Ejemplo16.c Review"
+    default n
+    help
+      El archivo fuente Ejemplo16.c ejemplifica el uso de varios operadores.
+
+config EJEMPLO_XVII
+    bool "Ejemplo17.c Bitwise operators example"
+    default n
+    help
+      El archivo fuente Ejemplo16.c ejemplifica el uso algunos operadores a nive de bits.
+

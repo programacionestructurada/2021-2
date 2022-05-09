@@ -2,11 +2,11 @@
 #include <string.h>
 #define sa  saludo
 /** Arreglo declarado como variable global */
-char saludo[32]; /** \'indices 0,1,2,3,4 */
+char saludo[32]; /** \'indices 0,1,2,3,4,...,31 */
 char otarr[] = "WXYZ"; /*Una cadena en C*/
-
+              /* {'W','X','Y','Z','\0'} */
 int main(){
- char *cPt;
+ char *cPt; /**cPt es de tipo apuntador a char */
  saludo[0] = 'H';saludo[1] = 'O';saludo[2] = 'L';
  saludo[3] = 'A';saludo[4] = ',';saludo[5] = ' ';
  saludo[6] = 'B';saludo[7] = 'U';saludo[8] = 'E';
@@ -18,7 +18,7 @@ int main(){
  /** saludo[23] equivale a *(saludo+23) */
 
  printf("%c",sa[0]);printf("%c",sa[1]);
- printf("%c",sa[2]);printf("%c",sa[3]);
+ printf("%c",sa[2]);printf("%c",sa[3]);/** HOLA */
  printf("\n(*************************)\n");
  cPt = saludo;
  printf("En la direcci\\'on %p se tiene:%c, %d\n",

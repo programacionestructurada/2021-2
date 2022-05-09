@@ -9,16 +9,20 @@
 #include<malloc.h>
 
 //determinantes de matrices
+#include "../include/ProgEst02_util.h"
 
-struct matriz{
-       int m;//num de filas
-       int n;//num de columnas
-       float** A;
-};
+//struct matriz {
+//	int m;      /** Num. de filas */
+//	int n;      /** Num. de columnas */
+//	float **A;
+//};
+//Se usar\'a la declaraci\'on en "../include/struct_matriz.h",
+//incluido en "../include/ProgEst02_util.h"
 
 int P, Q, i, j, k, z;
 float** PQ;
-
+/** Devuelve una submatriz eliminando la fila cero
+ * y la columna colAElim */
 float** sub_matrix_(struct matriz *M,int colAElim)
 {
       int i,j;
@@ -64,7 +68,7 @@ void copy_matriz(struct matriz *to,struct matriz *from){
     }
 }
 
-int main (void)
+int main (int argc,char *argv[])
 {
 #if 0 //LMC 2021.11.24
     float*p=(float* )malloc(2*sizeof (float));
@@ -99,15 +103,17 @@ int main (void)
   #endif
 #endif
     struct matriz SM;
+    print_ident_data(__FILE__,argv[0]);printf("\n");
     printf("Prueba de la funci\\'on \
 float** sub_matrix_(struct matriz *M,int colAElim)\n");
     struct matriz M;
     M.m = M.n = 3;
 
-    M.A = (float **)malloc(3*sizeof(float *));
-    M.A[0] = (float *)malloc(3*sizeof(float));
-    M.A[1] = (float *)malloc(3*sizeof(float));
-    M.A[2] = (float *)malloc(3*sizeof(float));
+//    M.A = (float **)malloc(3*sizeof(float *));
+//    M.A[0] = (float *)malloc(3*sizeof(float));
+//    M.A[1] = (float *)malloc(3*sizeof(float));
+//    M.A[2] = (float *)malloc(3*sizeof(float));
+    M.A = (float **)get_matrix_pointer(M.m,M.n);
     M.A[0][0]=1;M.A[0][1]=2;M.A[0][2]=3;
     M.A[1][0]=4;M.A[1][1]=40.41;M.A[1][2]=42.43;
     M.A[2][0]=5;M.A[2][1]=44.45;M.A[2][2]=46.47;

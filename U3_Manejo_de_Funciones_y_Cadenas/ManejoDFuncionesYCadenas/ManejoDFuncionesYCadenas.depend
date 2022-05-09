@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1651863429 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/VariableAleatoria.c
+	<stdio.h>
+	<stdlib.h>
+	"PO_DiaNumDLab.h"
+
+1651864860 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/LIntroProg.c
+	<string.h>
+	<limits.h>
+	<stdlib.h>
+	<stdio.h>
+	"PO_DiaNumDLab.h"
+
+1651854231 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/PO_DiaNumDLab.h
+
+1651808710 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/medida_candidad_de_dias.c
+	"PO_DiaNumDLab.h"
+

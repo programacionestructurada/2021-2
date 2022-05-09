@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "struct_matriz.h"
+#include "../include/ProgEst02_util.h"
 
-int main()
+int main(int argc,char *argv[])
 {
  int i,j;
  float A[3][3]={{0,3,5},{7,9,11},{13,15,17}};
@@ -16,7 +17,8 @@ int main()
  MA->A = Apt;
  set_entries_of_A(MA,A,i,j);
 
- printf("PROGRAMA QUE OBTIENE LA INVERSA DE UNA MATRIZ\n");
+ print_ident_data(__FILE__,argv[0]);
+ printf("\n\n\nPROGRAMA QUE OBTIENE LA INVERSA DE UNA MATRIZ\n");
  printf("(utiliza la funci\\'on \
 struct matriz *inv(struct matriz *),\n");
  printf("que est\\'a resuelta en el archivo inverse_matrix.c)\n");

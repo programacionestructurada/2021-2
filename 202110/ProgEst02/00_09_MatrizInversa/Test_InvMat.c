@@ -40,4 +40,4 @@ struct matriz *inv(struct matriz *),\n");
  free(M_AinvxA->A);
  free(M_AinvxA);
  return 0;
-}
+}/*end main()*/

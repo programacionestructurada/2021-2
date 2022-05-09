@@ -32,11 +32,42 @@
 			<Add option="-Wall" />
 			<Add option="-include include/generated/autoconf.h" />
 		</Compiler>
+		<Unit filename="00PracticaTestingKconfig_util.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="00PracticaTestingKconfig_util.h">
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="Ejemplo10.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="Ejemplo11.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo12.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo13.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo14.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo15.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo16.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Ejemplo17.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
@@ -92,6 +123,12 @@
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
+		<Unit filename="Kconfig" />
+		<Unit filename="debugme.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="include/generated/autoconf.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

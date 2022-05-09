@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IntroProgUnidad02" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IntroProgUnidad02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IntroProgUnidad02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Test_For">
+				<Option output="bin/Test_For/IntroProgUnidad02" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Test_For/" />
+				<Option object_output="obj/Test_For/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-include include/generated/autoconf.h" />
+		</Compiler>
+		<Unit filename="IntroProgUnidad02_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IntroProgUnidad02_util.h">
+			<Option target="Release" />
+			<Option target="Test_For" />
+		</Unit>
+		<Unit filename="Kconfig">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Makefile">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="TestFor.c">
+			<Option compilerVar="CC" />
+			<Option target="Test_For" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="include/generated/autoconf.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

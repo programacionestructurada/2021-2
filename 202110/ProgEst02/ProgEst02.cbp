@@ -121,7 +121,7 @@
 			</Target>
 			<Target title="00_07_Submatrices">
 				<Option output="bin/00_07_Submatrices/ProgEst02" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="bin/00_07_Submatrices/" />
+				<Option working_dir="../ProgEst02" />
 				<Option object_output="obj/00_07_Submatrices/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -160,12 +160,25 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="00_07_MatrizInversa_M3x3">
+				<Option output="bin/00_07_MatrizInversa_M3x3/ProgEst02" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/00_07_MatrizInversa_M3x3/" />
+				<Option object_output="obj/00_07_MatrizInversa_M3x3/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
 		<Linker>
-			<Add option="-lm" />
+			<Add option="-lm -L../../IntroProgUtil/bin/Release   -lIntroProgUtil" />
 		</Linker>
 		<Unit filename="00_01_Arreglos/arreglos_unidimensionales.c">
 			<Option compilerVar="CC" />
@@ -190,6 +203,7 @@
 		<Unit filename="00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c">
 			<Option compilerVar="CC" />
 			<Option target="00_07_MatrizInversa" />
+			<Option target="00_07_MatrizInversa_M3x3" />
 		</Unit>
 		<Unit filename="00_07_Submatrices/Submatrices.c">
 			<Option compilerVar="CC" />
@@ -198,36 +212,6 @@
 		<Unit filename="00_08_MatrizInversa/Test_inverse_matrix.c">
 			<Option compilerVar="CC" />
 			<Option target="00_08_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/copy_matriz.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/det.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/get_traspose.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/inverse_matrix.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/print_matriz.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
-		</Unit>
-		<Unit filename="00_08_MatrizInversa/sub_matrix.c">
-			<Option compilerVar="CC" />
-			<Option target="00_08_MatrizInversa" />
-			<Option target="00_09_MatrizInversa" />
 		</Unit>
 		<Unit filename="00_09_MatrizInversa/Test_InvMat.c">
 			<Option compilerVar="CC" />
@@ -254,6 +238,14 @@
 		</Unit>
 		<Unit filename="02_BloomTax/lines_arr.h">
 			<Option target="02_BloomTax" />
+		</Unit>
+		<Unit filename="ProgEst02_util.c">
+			<Option compilerVar="CC" />
+			<Option target="00_06_Traspuesta" />
+			<Option target="00_07_Submatrices" />
+		</Unit>
+		<Unit filename="include/ProgEst02_util.h">
+			<Option target="Debug" />
 		</Unit>
 		<Unit filename="include/struct_matriz.h">
 			<Option target="00_08_MatrizInversa" />

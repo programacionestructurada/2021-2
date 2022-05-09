@@ -27,7 +27,7 @@ for(I=0;I < (M)->m;I++){\
  * apuntador M.
  * Esta funci\'on est\'a resuelta en el archivo print_matriz.c
  */
-void print_matriz(struct matriz *M);
+//void print_matriz(struct matriz *M);
 
 /** get_traspose()
  * Obtiene la traspuesta de la matriz A de rows filas y cols

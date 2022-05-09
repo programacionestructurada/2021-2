@@ -72,7 +72,8 @@ void burbuja(int A[],unsigned int tam,uint8_t D)
 int main(){
  //int arr[] = {2,0,2,1,1,1,0,3};
  //int arr[] = {0,3,1,1,2,0,2,1};
- int arr[] = {16,14,12,10,8,6,4,2};
+ int arr[] = {16,14,23,12,10,8,6,4,2};
+ printf("\n\n\n\n\n\n");
  print_array(arr,SIZE_ARR(arr));printf("\n");
  burbuja(arr,SIZE_ARR(arr),0);printf("\n");
  print_array(arr,SIZE_ARR(arr));printf("\n");

@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define TAM 100
-//#define USE_ARRAYS
-#define SIZE_ARR(arr)   (sizeof(arr)/sizeof(arr[0]))
+#define USE_ARRAYS
+//#define SIZE_ARR(arr)   (sizeof(arr)/sizeof(arr[0]))
+#include "../include/ProgEst02_util.h"
 
 void print_array(float A[],unsigned int tam){
  int i;
@@ -12,14 +13,14 @@ void print_array(float A[],unsigned int tam){
 }
 
 int main(){
- int I,N;
-#ifdef USE_ARRAYS
+ int I,N;                // Jueves 31 de marzo de 2022.
+#ifdef CONFIG_USE_ARRAYS //Este proyecto aun no est\'a usando kconfig
  float A[TAM],B[TAM],C[TAM];
 #else
  float *A,*B,*C;
 #endif // 1
  printf("PROGRAMA QUE REALIZA UNA SUMA DE VECTORES\n");
- printf("Introduce el valor de N: ");
+ printf("Introduce el valor de N (dimensi\\'on de vectores): ");
  scanf("%d",&N);
 
 #ifdef USE_ARRAYS
@@ -78,7 +79,7 @@ int main(){
   free(A);
   free(B);
   free(C);
-#endif // USE_ARRAYS
+#endif // CONFIG_USE_ARRAYS
 
 
  return 0;

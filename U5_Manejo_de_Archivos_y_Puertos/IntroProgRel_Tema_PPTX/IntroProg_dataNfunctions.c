@@ -71,8 +71,8 @@ char unidad03_tema[][128] = {
 };
 char unidad03_tema_ancla[][128] = {
  "3.0",
- "3.3",
- "3.3"
+ "3.1",
+ "3.2"
 };
 char unidad03_tema_presentacion[][128] = {
  "3.0",
@@ -82,7 +82,7 @@ char unidad03_tema_presentacion[][128] = {
 char unidad04_tema[][128] = {
  "4.0",
  "4.1 Apuntadores y variables",
- "4.1 Estructuras"
+ "4.2 Estructuras"
 };
 char unidad04_tema_ancla[][128] = {
  "4.0",
@@ -208,7 +208,7 @@ void create_html_files()
      fprintf(cfPtr,"<H2>%s</H2>\n",Unidad[i]);
      for (j=1;j<unidad_tema[i].numdtemas;j++){
        fprintf(cfPtr,
-               "<H2><A NAME=%s>%s</A></H2>\n",
+               "<H2><A NAME=%s>%s</A></H2><BR><BR><BR><BR>\n",
                unidad_tema[i].Tema_Ancla[j],
                unidad_tema[i].Tema_Presentacion[j]);
      }

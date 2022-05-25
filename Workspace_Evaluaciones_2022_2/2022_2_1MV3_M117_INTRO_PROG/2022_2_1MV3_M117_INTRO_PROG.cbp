@@ -34,16 +34,19 @@
 		<Unit filename="../CommFiles/Discente.h">
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="DISC_00.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
 		<Unit filename="Discente.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Discentes/structs_Discente.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="EventsMeasures.c">
 			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile">
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="MaximunsGrades.c">

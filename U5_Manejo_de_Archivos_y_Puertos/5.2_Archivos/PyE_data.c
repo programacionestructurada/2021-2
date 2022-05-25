@@ -99,10 +99,11 @@ char unidad03_tema_presentacion[][128] = {
  "III.B 06_U03_Dist_Discretas.pptx, \
  07_U03_Dist_Discretas_Dist_Binomial_Ejemplos.pptx",
  "III.C 06_U03_Dist_Discretas.pptx, \
- 08_III.C_Distribucion_Geometrica.pptx",
+09_U03_Integer_Valued_Random_Variables.pptx, \
+08_III.C_Distribucion_Geometrica.pptx",
  "III.D 08_III.D_DistBinomialNegativa.pptx",
- "III.E",
- "III.F"
+ "III.E 08_III.E_Distribucion_Hipergeometrica.pptx",
+ "III.F 10_U03_III.F_Distribucion_de_Poisson.pptx"
 };
 char unidad04_tema[][128] = {
  "IV.Z",
@@ -116,7 +117,7 @@ char unidad04_tema_ancla[][128] = {
 };
 char unidad04_tema_presentacion[][128] = {
  "IV.Z",
- "IV.A",
+ "IV.A 11_U04_IV.A_Distribucion_Uniforme.pptx",
  "IV.B"
 };
 char unidad05_tema[][128] = {

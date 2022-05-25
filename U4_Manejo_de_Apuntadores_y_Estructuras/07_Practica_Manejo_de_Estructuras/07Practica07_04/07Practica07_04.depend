@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1653416573 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/LintroProg.c
+	<string.h>
+	<limits.h>
+	<stdbool.h>
+	<assert.h>
+	"PO_DiaNumDLab.h"
+
+1653411347 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+
+1653417781 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/ConjDInts.c
+	"PO_DiaNumDLab.h"
+
+1653411324 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/TestConjDInts/TestConjDInts.c
+	"../PO_DiaNumDLab.h"
+
+1653416926 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/TestInverseImage.c
+	<stdio.h>
+	<stdlib.h>
+	"PO_DiaNumDLab.h"
+
+1653413113 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/GettingInverseImages/GetInvImgs.c
+	"../PO_DiaNumDLab.h"
+

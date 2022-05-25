@@ -50,7 +50,7 @@ Integral(funcion_LIntroProg_Inv_t f,short valor[],short sizeof_valor)
 {
  int result = 0,i;
  for (i=0;i<sizeof_valor;i++){
-   result+=valor[i]*medida_cdd(f(valor[i]));
+   result+=valor[i]*medida_cdd(*f(valor[i]));
  }
  return result;
 }

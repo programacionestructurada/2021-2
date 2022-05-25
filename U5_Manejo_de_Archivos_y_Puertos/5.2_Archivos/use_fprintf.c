@@ -8,8 +8,8 @@
 #include <string.h>
 #include "UnidadTema.h"
 #define LENGTH(bidarr)  (sizeof(bidarr)/sizeof(bidarr[0]))
-
 #include "PyE_data.c"
+
 int main(int argc,char *argv[])
 {
  short i,j;

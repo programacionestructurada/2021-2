@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1651863429 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/VariableAleatoria.c
+1651865583 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/VariableAleatoria.c
 	<stdio.h>
 	<stdlib.h>
 	"PO_DiaNumDLab.h"

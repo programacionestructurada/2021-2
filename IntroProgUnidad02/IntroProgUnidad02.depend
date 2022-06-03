@@ -12,3 +12,50 @@
 
 1646963101 /home/usuario/Documentos/IntroProgUnidad02/IntroProgUnidad02_util.h
 
+1654283920 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/ArregloBidimensional.c
+	<stdio.h>
+	<string.h>
+	"IntroProgUnidad02_util.h"
+
+1654280321 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1653667086 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1647299019 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/fib_dw.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1647282892 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/fib_f.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1647282114 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/fib_w.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1647282109 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/fib_w_goto.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1653671431 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/IntroProgUnidad02_util.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1646964370 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/main.c
+	<stdio.h>
+	<stdlib.h>
+	"IntroProgUnidad02_util.h"
+
+1647473495 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/switch_eg.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1646964539 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/TestFor.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+

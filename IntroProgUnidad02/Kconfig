@@ -10,3 +10,82 @@ config TEST_FOR
     default n
     help
       El archivo fuente TestFor.c
+
+config FIBONACCI_DO_WHILE
+    bool "FIBONACCI_DO_WHILE Archivo fib_dw.c funci\\'on fib_dw(int)"
+    default n
+    help
+      El archivo fuente fib_dw.c
+
+config FIBONACCI_WHILE
+    bool "FIBONACCI_WHILE Archivo fib_w.c funci\\'on fib_w(int)"
+    default n
+    help
+      El archivo fuente fib_w.c
+
+config FIBONACCI_W_GOTO
+    bool "FIBONACCI_W_GOTO Archivo fib_w_goto.c funci\\'on fib_w_goto(int)"
+    default n
+    help
+      El archivo fuente fib_w_goto.c
+
+config FIBONACCI_FOR
+    bool "FIBONACCI_FOR Archivo fib_f.c funci\\'on fib_f(int)"
+    default n
+    help
+      El archivo fuente fib_f.c
+
+config SENTENCIA_SWITCH
+     bool "SENTENCIA_SWITCH Archivo switch_eg.c funci\\'on switch_eg(int)"
+     default n
+     help
+      El archivo fuente switch_eg.c
+
+config ARREGLOS_UNIDIMENSIONALES
+     bool "ARREGLOS_UNIDIMENSIONALES"
+     default n
+     help
+       ArreglosUnidimensionales.c contiene ejemplos de uso de
+       arreglos unidimensionales.
+
+config JUSTIFICADO_A_LA_DERECHA
+     bool "JUSTIFICADO_A_LA_DERECHA"
+     depends on ARREGLOS_UNIDIMENSIONALES
+     help
+        Los nombres de los dias LUNES, MARTES,... se imprimen
+        alineados a derecha.
+
+config JUSTIFICADO_A_LA_IZQUIERDA
+     bool "JUSTIFICADO_A_LA_IZQUIERDA"
+     depends on ARREGLOS_UNIDIMENSIONALES
+     help
+        Los nombres de los dias LUNES, MARTES,... se imprimen
+        alineados a la izquierda.
+
+config ARREGLOS_BIDIMENSIONALES
+     bool "ARREGLOS_BIDIMENSIONALES ArregloBidimensional.c"
+     default n
+     help
+       ArregloBidimensional.c - Se ejemplifica el uso de un
+       arreglo bidimensional.
+
+config JUSTIFICADO_A_LA_DERECHA
+     bool "JUSTIFICADO_A_LA_DERECHA"
+     depends on ARREGLOS_BIDIMENSIONALES
+     help
+        Los nombres de los dias LUNES, MARTES,... se imprimen
+        alineados a derecha.
+
+config JUSTIFICADO_A_LA_IZQUIERDA
+     bool "JUSTIFICADO_A_LA_IZQUIERDA"
+     depends on ARREGLOS_BIDIMENSIONALES
+     help
+        Los nombres de los dias LUNES, MARTES,... se imprimen
+        alineados a la izquierda.
+
+config INCLUDE_HRULE
+     bool "INCLUDE_HRULE"
+     depends on ARREGLOS_BIDIMENSIONALES
+     help
+        En el archivo ArreglosBidimensionales.c se agregan
+        l\'ineas horizontales a la tabla.

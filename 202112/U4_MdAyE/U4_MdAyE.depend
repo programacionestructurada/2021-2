@@ -6,7 +6,7 @@
 
 1639769644 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/include/tipo.h
 
-1639769644 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/tipo.c
+1639771090 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/02_MemoriaDinamica/tipo.c
 	<stdio.h>
 	<stdlib.h>
 	"../include/tipo.h"
@@ -43,4 +43,7 @@
 1639751731 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/4_2_5_ApuntadoresAEstructuras/4_2_5_ApuntadoresAEstructura.c
 	<stdio.h>
 	<string.h>
+
+1639773271 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/4_2_2_y_4_2_3_EstructComplejasYEstructAnidadas/4_2_2_y_4_2_3.c
+	<stdio.h>
 

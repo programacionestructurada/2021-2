@@ -92,7 +92,8 @@ char_array_pt_t union_de_dias(char str1[],char str2[])
 #else
 char_array_pt_t union_de_dias(char str1[], char str2[])
 {
- size_t i,j,n1,n2,i_for_comm_loop;
+ //size_t i,j,n1,n2,i_for_comm_loop;
+ size_t i,j,n1,n2;
  static char array[SHRT_MAX] = {'\0'};
  char arr_1[][16] = {
  /**0*/"",

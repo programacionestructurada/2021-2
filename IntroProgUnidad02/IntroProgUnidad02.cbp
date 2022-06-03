@@ -45,8 +45,16 @@
 			<Add option="-Wall" />
 			<Add option="-include include/generated/autoconf.h" />
 		</Compiler>
-		<Unit filename="IntroProgUnidad02_util.c">
+		<Linker>
+			<Add library="IntroProgUtil" />
+			<Add directory="../IntroProgUtil/bin/Release" />
+		</Linker>
+		<Unit filename="ArregloBidimensional.c">
 			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="IntroProgUnidad02.cbp">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="IntroProgUnidad02_util.h">
 			<Option target="Release" />
@@ -58,15 +66,38 @@
 		<Unit filename="Makefile">
 			<Option target="Release" />
 		</Unit>
+		<Unit filename="PO_DiaNumDLab.h">
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="TestFor.c">
 			<Option compilerVar="CC" />
 			<Option target="Test_For" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="fib_dw.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="fib_f.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="fib_w.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="fib_w_goto.c">
+			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="include/generated/autoconf.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="switch_eg.c">
+			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
 		<Extensions>

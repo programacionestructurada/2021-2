@@ -3,3 +3,51 @@
 	<stdio.h>
 	<stdlib.h>
 
+1649362172 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/copy_matriz.c
+	<stdlib.h>
+	"../include/struct_matriz.h"
+
+1649769805 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
+	<stdlib.h>
+
+1637808901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/det.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637808952 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/get_traspose.c
+	<stdlib.h>
+	"struct_matriz.h"
+
+1637813016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1637870131 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/sub_matrix.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1649888168 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/print_matriz.c
+	<stdio.h>
+	"struct_matriz.h"
+	"../202110/ProgEst02/include/struct_matriz.h"
+
+1654298216 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/Unidad02_libIntroProgUtil.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"IntroProgUnidad02_util.h"
+	"PO_DiaNumDLab.h"
+
+1654280337 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1653667086 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

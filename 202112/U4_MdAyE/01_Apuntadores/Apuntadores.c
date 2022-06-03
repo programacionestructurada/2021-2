@@ -1,4 +1,6 @@
-/** Apuntadores.c - Muestra el uso b\'asico de apuntadores */
+/** Apuntadores.c - Muestra el uso b\'asico de apuntadores
+ * Tema: Apuntadores en Lenguaje C.
+ */
 #include <stdio.h>
 
 int main()
@@ -16,6 +18,8 @@ int main()
         u, &u, pu, *pu);
  printf("\n\nv=%d &v=%X pv=%X *pv=%d",
         v, &v, pv, *pv);
+ *pu = 4;
+ printf("\nu = %d\n",u);
  return 0;
 }/*end main()*/
 

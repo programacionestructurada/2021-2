@@ -22,7 +22,7 @@ int main(){
  print_conjunto_dints(other);
 #endif
  free(cdiPt);
- free(other);
+ //free(other);
  return 0;
 }/*end main()*/
 

@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #define LENGTH(A)   (sizeof(A)/sizeof(A[0]))
-
+#define COLUMN_W    128
 struct PO_DiaNumDLab {
  short NumDLab;
  char cadena[];
@@ -29,7 +29,7 @@ bool is_element_from(struct ConjDInts *CdI,short value);
 typedef char (*char_array_pt_t)[];
 #define MAX_LENGTH  SHRT_MAX
 char (*tokenizer(char str[],size_t *tokens_nr))[][16];
-typedef char (*two_dim_char_array_pt_t)[][16];
+typedef char (*two_dim_char_array_pt_t)[][COLUMN_W];
 
 char (*ImagenInversaD_LIntroProg(struct ConjDInts CdI))[];
 /**Imagen Directa De Laboratorio Introducci\'on a la Programaci\'on*/

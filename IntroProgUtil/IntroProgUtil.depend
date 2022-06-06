@@ -35,17 +35,18 @@
 	"struct_matriz.h"
 	"../202110/ProgEst02/include/struct_matriz.h"
 
-1654298216 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/Unidad02_libIntroProgUtil.c
+1654487858 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/Unidad02_libIntroProgUtil.c
 	<stdio.h>
 	<string.h>
 	<math.h>
+	<assert.h>
 	"IntroProgUnidad02_util.h"
 	"PO_DiaNumDLab.h"
 
-1654280337 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUnidad02_util.h
+1654475307 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUnidad02_util.h
 	"PO_DiaNumDLab.h"
 
-1653667086 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/PO_DiaNumDLab.h
+1654475307 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/PO_DiaNumDLab.h
 	<limits.h>
 	<stdio.h>
 	<stdlib.h>

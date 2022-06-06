@@ -29,7 +29,7 @@ bool is_element_from(struct ConjDInts *CdI,short value);
 typedef char (*char_array_pt_t)[];
 #define MAX_LENGTH  SHRT_MAX
 char (*tokenizer(char str[],size_t *tokens_nr))[][16];
-typedef char (*two_dim_char_array_pt_t)[][COLUMN_W];
+typedef char (*two_dim_char_array_pt_t)[][16];
 
 char (*ImagenInversaD_LIntroProg(struct ConjDInts CdI))[];
 /**Imagen Directa De Laboratorio Introducci\'on a la Programaci\'on*/

@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#define NDEBUG
+#include <assert.h>
 #include "IntroProgUnidad02_util.h"
 #include "PO_DiaNumDLab.h"
 extern char HdG[3][100];
@@ -105,20 +107,20 @@ void print_like_table(short rows,struct ConjDInts cdi,char (**two_dim_char_array
  short i;
  char HdG[rows][SHRT_MAX];
 
- char FILA_0[][COLUMN_W] = {"","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES"};
- char FILA_1[][COLUMN_W] = {"14:30-16:00","","SOTR 3MM11 (C8)","SOTR 3MM11 (C7)",
-                            "INTROPROG 1MV3 (C1)","SOTR 3MM11 (C7)"};
- char FILA_2[][COLUMN_W] = {"16:00-17:30","INTROPROG 1MV3 (C4)","","INTROPROG 1MV3 (C4)",
-                             "PROGAVAN 1MV4 (C3)","PROGAVAN 1MV4 (C4)"};
- for (i=0;i<cdi.canDElems;i++) {
-   strcpy(FILA_0[i],(*(two_dim_char_array_pt_pt[0]))[i]);
- }
- for (i=0;i<cdi.canDElems;i++) {
-   strcpy(FILA_1[i],(*(two_dim_char_array_pt_pt[1]))[i]);
- }
- for (i=0;i<cdi.canDElems;i++) {
-   strcpy(FILA_2[i],(*(two_dim_char_array_pt_pt[2]))[i]);
- }
+// char FILA_0[][COLUMN_W] = {"","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES"};
+// char FILA_1[][COLUMN_W] = {"14:30-16:00","","SOTR 3MM11 (C8)","SOTR 3MM11 (C7)",
+//                            "INTROPROG 1MV3 (C1)","SOTR 3MM11 (C7)"};
+// char FILA_2[][COLUMN_W] = {"16:00-17:30","INTROPROG 1MV3 (C4)","","INTROPROG 1MV3 (C4)",
+//                             "PROGAVAN 1MV4 (C3)","PROGAVAN 1MV4 (C4)"};
+// for (i=0;i<cdi.canDElems;i++) {
+//   strcpy(FILA_0[i],(*(two_dim_char_array_pt_pt[0]))[i]);
+// }
+// for (i=0;i<cdi.canDElems;i++) {
+//   strcpy(FILA_1[i],(*(two_dim_char_array_pt_pt[1]))[i]);
+// }
+// for (i=0;i<cdi.canDElems;i++) {
+//   strcpy(FILA_2[i],(*(two_dim_char_array_pt_pt[2]))[i]);
+// }
  char formato[SHRT_MAX];
  char h_rule[SHRT_MAX];
 /**
@@ -210,9 +212,23 @@ void print_like_table(short rows,struct ConjDInts cdi,char (**two_dim_char_array
            HdG[i][SHRT_MAX-1] = (*(two_dim_char_array_pt_pt[i]))[0][COLUMN_W-1];
          }
          break;}
+         case 7:
+        {
+         for (i=0;i<rows;i++) {
+           sprintf(HdG[i],formato,
+                   (*(two_dim_char_array_pt_pt[i]))[0],
+                   (*(two_dim_char_array_pt_pt[i]))[1],
+                   (*(two_dim_char_array_pt_pt[i]))[2],
+                   (*(two_dim_char_array_pt_pt[i]))[3],
+                   (*(two_dim_char_array_pt_pt[i]))[4],
+                   (*(two_dim_char_array_pt_pt[i]))[5],
+                   (*(two_dim_char_array_pt_pt[i]))[6]);
+           HdG[i][SHRT_MAX-1] = (*(two_dim_char_array_pt_pt[i]))[0][COLUMN_W-1];
+         }
+         break;}
  //...
  default:{break;}
- }
+ }/*end switch()*/
  printf("%s",h_rule);
  for(i=0;i<3;i++){
    printf("%s",HdG[i]);
@@ -235,6 +251,33 @@ void create_h_rule(char h_rule[SHRT_MAX],struct ConjDInts cdi)
  }
  h_rule[k++] = '\n';
  h_rule[k] = '\0';
+}
+
+/**Stub
+ */
+void tabla(short rows,short cols,two_dim_char_array_pt_t t_c[])
+{
+ short i,j;
+ /**Stub*/
+ char (**c_a_pt_pt)[][COLUMN_W] = t_c;
+ for (i=0;i<rows;i++) {
+
+   (*(c_a_pt_pt[i]))[0][COLUMN_W-1] = '1';
+ }
+ struct ConjDInts cdi;
+ cdi.canDElems = cols;
+ cdi.Elem = malloc(cols*sizeof(short));
+ for (j=0;j<cols;j++) {
+   if (j==0) {
+     cdi.Elem[j] = -16;
+   } else {
+     cdi.Elem[j] = -strlen((*(c_a_pt_pt[1]))[j]);
+   }
+ }
+#ifndef NDEBUG
+ printf("%s|%s|%s\n",(*(c_a_pt_pt[0]))[0],(*(c_a_pt_pt[0]))[1],(*(c_a_pt_pt[0]))[2]);
+#endif // NDEBUG
+ print_like_table(rows,cdi,c_a_pt_pt);
 }
 
 

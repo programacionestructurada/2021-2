@@ -12,9 +12,12 @@ struct mtabla {
  void (*print_table)(struct mtabla *);
 };
 void show_table(struct mtabla *);
+
 int main(int argc,char *argv[])
 {
+ short i;
  printf("%s\n",__FILE__);
+/***********************************************/
  char fila_0[][COLUMN_W] = {
   "Task number","Description","Deadline"
  };
@@ -34,8 +37,26 @@ int main(int argc,char *argv[])
 // char (*C)[];/**Apuntador a arreglo de char*/
  my_tabla.rows = 2;my_tabla.cols = 3;
  my_tabla.print_table = &show_table;
+ printf("\n");my_tabla.print_table(&my_tabla);
+/***********************************************/
+ char FRASE_0[][COLUMN_W] = {"Sapere aude"};
+ char FRASE_1[][COLUMN_W] = {"Alea jacta est"};
+ char FRASE_2[][COLUMN_W] = {"Nil novi sub sole"};
+ two_dim_char_array_pt_t FRASE[] = {
+  &FRASE_0,&FRASE_1,&FRASE_2
+ };
+ struct mtabla my_tabla_1;
+ my_tabla_1.table_content = FRASE;
+ my_tabla_1.rows = 3;my_tabla_1.cols = 1;
+ my_tabla_1.print_table = &show_table;
+ printf("\n");my_tabla_1.print_table(&my_tabla_1);
+/***********************************************/
+ /*Ahora el arreglo de estructuras mtabla*/
+ struct mtabla smtabla_arr[] = {my_tabla,my_tabla_1};
+ for (i=0;i<LENGTH(smtabla_arr);i++) {
+   printf("\n");smtabla_arr[i].print_table(&smtabla_arr[i]);
+ }
 
- my_tabla.print_table(&my_tabla);
  return 0;
 }/*end main()*/
 

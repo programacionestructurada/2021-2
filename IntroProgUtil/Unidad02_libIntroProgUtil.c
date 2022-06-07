@@ -257,22 +257,26 @@ void create_h_rule(char h_rule[SHRT_MAX],struct ConjDInts cdi)
  */
 void tabla(short rows,short cols,two_dim_char_array_pt_t t_c[])
 {
- short i,j;
+ short i,j,k;
  /**Stub*/
  char (**c_a_pt_pt)[][COLUMN_W] = t_c;
  for (i=0;i<rows;i++) {
-
-   (*(c_a_pt_pt[i]))[0][COLUMN_W-1] = '1';
+   (*(c_a_pt_pt[i]))[0][COLUMN_W-1] = '1';/*?ES ESTO UNA POLITICA?*/
  }
  struct ConjDInts cdi;
  cdi.canDElems = cols;
  cdi.Elem = malloc(cols*sizeof(short));
  for (j=0;j<cols;j++) {
+#if 0//LMC 2022.06.07
    if (j==0) {
      cdi.Elem[j] = -16;
    } else {
-     cdi.Elem[j] = -strlen((*(c_a_pt_pt[1]))[j]);
+     cdi.Elem[j] = -strlen((*(c_a_pt_pt[2]))[j]);
    }
+#else
+   k = row_of_max_lenght_for_column(j,rows,c_a_pt_pt);
+   cdi.Elem[j] = -strlen((*(c_a_pt_pt[k]))[j]);/*ESTO ES UN MECANISMO*/
+#endif // 0
  }
 #ifndef NDEBUG
  printf("%s|%s|%s\n",(*(c_a_pt_pt[0]))[0],(*(c_a_pt_pt[0]))[1],(*(c_a_pt_pt[0]))[2]);
@@ -280,4 +284,13 @@ void tabla(short rows,short cols,two_dim_char_array_pt_t t_c[])
  print_like_table(rows,cdi,c_a_pt_pt);
 }
 
-
+short row_of_max_lenght_for_column(short J,short rows,char (**c_a_pt_pt)[][COLUMN_W])
+{
+ short result = 0,i;
+ for (i=0;i<rows;i++) {
+   if (strlen((*(c_a_pt_pt[i]))[J]) > strlen((*(c_a_pt_pt[result]))[J])) {
+     result = i;
+   }
+ }
+ return result;
+}

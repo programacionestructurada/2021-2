@@ -59,3 +59,46 @@
 	<stdio.h>
 	"IntroProgUnidad02_util.h"
 
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/fib_dw.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654622992 /media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1654620086 /media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/fib_f.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/fib_w.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/fib_w_goto.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/main.c
+	<stdio.h>
+	<stdlib.h>
+	"IntroProgUnidad02_util.h"
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/switch_eg.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654620086 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/TestFor.c
+	<stdio.h>
+	"IntroProgUnidad02_util.h"
+
+1654621971 source:/media/user/SOTR_1/20220607/2022_2-M117-INTROPROG/2021-2/IntroProgUnidad02/ArregloBidimensional.c
+	<stdio.h>
+	<string.h>
+	"IntroProgUnidad02_util.h"
+

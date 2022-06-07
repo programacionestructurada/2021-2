@@ -95,8 +95,9 @@ int main(int argc,char *argv[])
 /***********************************************************************************/
  char encabezado[][COLUMN_W] = {"Task Number","Description","Date"};
  char T01[][COLUMN_W] = {"1","Pagar factura Telmex.","Junio 1, 2022. Deadline: Junio 11, 2022."};
- two_dim_char_array_pt_t arr[] = {&encabezado,&T01};
- printf("\n");tabla(2,3,arr);
+ char T02[][COLUMN_W] = {"","Pago realizado con fecha:","Sunday june 5, 2022"};
+ two_dim_char_array_pt_t arr[] = {&encabezado,&T01,&T02};
+ printf("\n");tabla(3,3,arr);
 /***********************************************************************************/
  return 0;
 }/*end main()*/

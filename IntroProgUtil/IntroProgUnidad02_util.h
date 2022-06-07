@@ -11,4 +11,5 @@ void print_like_table(short rows,struct ConjDInts CdI,char (**two_dim_char_array
 void create_h_rule(char h_rule[SHRT_MAX],struct ConjDInts cdi);
 //typedef char (*two_dim_char_array_pt_t)[][COLUMN_W];
 void tabla(short rows,short cols,two_dim_char_array_pt_t t_c[]);
+short row_of_max_lenght_for_column(short J,short rows,char (**char_array_pt_pt)[][COLUMN_W]);
 #endif // INTROPROGUNIDAD02_UTIL_INCLUDED

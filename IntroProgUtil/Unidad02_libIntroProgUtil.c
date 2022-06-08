@@ -230,7 +230,7 @@ void print_like_table(short rows,struct ConjDInts cdi,char (**two_dim_char_array
  default:{break;}
  }/*end switch()*/
  printf("%s",h_rule);
- for(i=0;i<3;i++){
+ for(i=0;i<rows;i++){
    printf("%s",HdG[i]);
    if (HdG[i][SHRT_MAX-1]=='1'){
      printf("%s",h_rule);
@@ -294,3 +294,6 @@ short row_of_max_lenght_for_column(short J,short rows,char (**c_a_pt_pt)[][COLUM
  }
  return result;
 }
+
+
+

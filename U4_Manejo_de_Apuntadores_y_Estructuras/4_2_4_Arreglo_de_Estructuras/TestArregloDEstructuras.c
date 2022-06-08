@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define NDEBUG
 #include <assert.h>
-//#define COLUMN_W    128
+//#define COLUMN_W    128  /**COLUMN_W is defined at IntroProgUnidad02_util.h*/
 #include "IntroProgUnidad02_util.h"
 typedef char (*two_dim_char_array_pt_t)[][COLUMN_W];
 struct mtabla {

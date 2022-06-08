@@ -14,3 +14,18 @@
 	<stdlib.h>
 	<stdbool.h>
 
+1654635430 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4_2_4_Arreglo_de_Estructuras/TestArregloDEstructuras.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"IntroProgUnidad02_util.h"
+
+1654634604 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4_2_4_Arreglo_de_Estructuras/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1654634604 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4_2_4_Arreglo_de_Estructuras/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

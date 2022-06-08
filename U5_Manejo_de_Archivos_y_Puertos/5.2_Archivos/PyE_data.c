@@ -118,7 +118,7 @@ char unidad04_tema_ancla[][128] = {
 char unidad04_tema_presentacion[][128] = {
  "IV.Z",
  "IV.A 11_U04_IV.A_Distribucion_Uniforme.pptx",
- "IV.B"
+ "IV.B 12_U04_IV.B_Distribucion_Exponencial.pptx"
 };
 char unidad05_tema[][128] = {
  "V.Z",

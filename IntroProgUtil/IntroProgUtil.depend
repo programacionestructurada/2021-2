@@ -1,1 +1,54 @@
 # depslib dependency file v1.0
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/copy_matriz.c
+	<stdlib.h>
+	"../include/struct_matriz.h"
+
+1654634603 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/include/struct_matriz.h
+	<stdlib.h>
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/det.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/get_traspose.c
+	<stdlib.h>
+	"struct_matriz.h"
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.c
+	<stdio.h>
+	<stdlib.h>
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/inverse_matrix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/print_matriz.c
+	<stdio.h>
+	"struct_matriz.h"
+	"../202110/ProgEst02/include/struct_matriz.h"
+
+1654634604 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/sub_matrix.c
+	<stdlib.h>
+	<math.h>
+	"struct_matriz.h"
+
+1654654891 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/Unidad02_libIntroProgUtil.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+	"IntroProgUnidad02_util.h"
+	"PO_DiaNumDLab.h"
+
+1654634604 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1654708119 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

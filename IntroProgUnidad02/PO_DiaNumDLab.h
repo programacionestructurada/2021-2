@@ -22,6 +22,14 @@ struct ConjDInts {
  short canDElems; /**cantidad De Elementos*/
  short *Elem;     /**Elemento(s)*/
 };
+
+struct mtabla {
+ short rows;
+ short cols;
+ char (**table_content)[][COLUMN_W];
+ void (*print_table)(struct mtabla *);
+};
+
 void print_ConjDInts(struct ConjDInts CdI,char sep);
 bool is_element_from(struct ConjDInts *CdI,short value);
 

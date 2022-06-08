@@ -2,64 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="00_01_Arreglos" />
-	<File name="00_07_Submatrices/Submatrices.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2729" topLine="90" />
-		</Cursor>
-	</File>
-	<File name="00_08_MatrizInversa/Test_inverse_matrix.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="820" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="ProgEst02_util.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="347" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="02_BloomTax/BloomTax.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="46" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2452" topLine="99" />
-		</Cursor>
-	</File>
-	<File name="00_02_Burbuja/sort_burbuja.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2459" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="00_01_Arreglos/arreglos_unidimensionales.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2690" topLine="3" />
-		</Cursor>
-	</File>
 	<File name="include/struct_matriz.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1043" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="02_BloomTax/TestBloomTax.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1317" topLine="23" />
-		</Cursor>
-	</File>
-	<File name="01_MaxDTresEnteros/MaxDTresEnteros.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="143" topLine="30" />
-		</Cursor>
-	</File>
-	<File name="00_07_Determinantes/determinante.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="770" topLine="27" />
-		</Cursor>
-	</File>
-	<File name="02_BloomTax/BloomTax.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3291" topLine="75" />
 		</Cursor>
 	</File>
 	<File name="00_09_MatrizInversa/Test_InvMat.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -67,14 +12,19 @@
 			<Cursor1 position="712" topLine="27" />
 		</Cursor>
 	</File>
-	<File name="include/ProgEst02_util.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="00_07_Determinantes/determinante.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="955" topLine="14" />
+			<Cursor1 position="770" topLine="27" />
 		</Cursor>
 	</File>
-	<File name="00_04_SumaDVectores/SumaDVectores.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="02_BloomTax/TestBloomTax.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="129" topLine="0" />
+			<Cursor1 position="1317" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="00_01_Arreglos/arreglos_unidimensionales.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2690" topLine="3" />
 		</Cursor>
 	</File>
 	<File name="00_06_Traspuesta/TraspuestaDMatrices.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -85,6 +35,56 @@
 	<File name="02_BloomTax/lines_arr.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="159" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="02_BloomTax/BloomTax.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="46" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="00_02_Burbuja/sort_burbuja.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2459" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="01_MaxDTresEnteros/MaxDTresEnteros.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="02_BloomTax/BloomTax.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3291" topLine="75" />
+		</Cursor>
+	</File>
+	<File name="00_07_MatrizInversa_M3x3/MatrizInversaM3x3.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2452" topLine="99" />
+		</Cursor>
+	</File>
+	<File name="include/ProgEst02_util.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="955" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="00_07_Submatrices/Submatrices.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2729" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="ProgEst02_util.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="347" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="00_04_SumaDVectores/SumaDVectores.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="129" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="00_08_MatrizInversa/Test_inverse_matrix.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="820" topLine="12" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

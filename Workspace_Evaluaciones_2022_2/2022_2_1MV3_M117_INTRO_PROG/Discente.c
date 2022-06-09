@@ -39,6 +39,18 @@ extern struct Discente SALAZAR_PEREZ_AVRIL_LIZETTE;
 extern struct Discente SANCHEZ_PINIA_RAYMUNDO;
 extern struct Discente XICOTENCATL_VALENCIA_ITOM_AKAI;
 
+/**Arreglo de apuntadores a struct Discente
+ * struct Discente esta declarado en
+ * struct Discente {
+ *   char disc_name[SIZE_OF_DISC_NAME_ARRAY];//discente's name
+ *   float caldevid[SIZE_OF_CALDEVID];       //calificacion de evidencias
+ * };
+ * Para cada discente su struct Discente tiene un arreglo de valores
+ * reales que contiene las calificaciones de sus
+ * SIZE_OF_CALDEVID/(SIZE_OF_CALDEVID-1) evidencias.
+ * Del codigo de la funci\'on max_grades() en MaximunsGrades.c, se deduce
+ * que
+ */
 static struct Discente *Disc_Arr[] = {
 &DISC_00,
 &ACOSTA_MATEOS_FERNANDO,

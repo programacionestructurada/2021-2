@@ -35,6 +35,12 @@
 			<Add library="IntroProgUtil" />
 			<Add directory="../../IntroProgUtil/bin/Release" />
 		</Linker>
+		<Unit filename="IntroProgUnidad02_util.h">
+			<Option target="TestStructArray" />
+		</Unit>
+		<Unit filename="PO_DiaNumDLab.h">
+			<Option target="TestStructArray" />
+		</Unit>
 		<Unit filename="TestArregloDEstructuras.c">
 			<Option compilerVar="CC" />
 		</Unit>

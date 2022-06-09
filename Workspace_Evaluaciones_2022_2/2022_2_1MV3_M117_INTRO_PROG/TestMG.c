@@ -1,4 +1,4 @@
-/**TestMG.c*/
+/**TestMG.c - Test Maximun Grade*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -15,7 +15,10 @@ int main(int argc,char *argv[])
  for (i=0;i<DISCENTS_AMOUNT;i++) {
    printf("%-44s%7.1f\n",Disc_Arr[i]->disc_name,(*float_array_pt)[i]);
  }
-#else
+#else /**Part #else is broken (LMC 2022.06.08), so I must define
+       * macro CONFIG_INCLUDING_DISCENTE_C_IN_MAXIMUNS_GRADES_C
+       * (definido en archivo ../CommonFiles/Discente.h)
+       */
  float_array_pt_t float_array_pt = max_grades();
  print_max_grades(float_array_pt);
 #endif

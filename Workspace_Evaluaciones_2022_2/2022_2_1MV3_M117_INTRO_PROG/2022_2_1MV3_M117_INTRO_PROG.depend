@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1652803615 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/MaximunsGrades.c
+1654634609 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/MaximunsGrades.c
 	<stdio.h>
 	<stdlib.h>
 	<assert.h>
@@ -13,21 +13,21 @@
 1651934920 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/DISC_00.c
 	"../CommFiles/Discente.h"
 
-1652803355 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/CommFiles/Discente.h
+1654634609 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/CommFiles/Discente.h
 
-1652182254 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/TestMG.c
+1654634609 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/TestMG.c
 	<stdio.h>
 	<stdlib.h>
 	<assert.h>
 	"../CommFiles/Discente.h"
 	"Discente.c"
 
-1651915150 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/EventsMeasures.c
+1654634609 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/EventsMeasures.c
 
 1651915126 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discente.c
 	"../CommFiles/Discente.h"
 
-1652724766 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discente.c
+1654634609 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discente.c
 	"../CommFiles/Discente.h"
 
 1652381885 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/DISC_00.c
@@ -36,6 +36,6 @@
 1652183949 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/ACOSTA_MATEOS_FERNANDO.c
 	"../../CommFiles/Discente.h"
 
-1652802460 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/structs_Discente.c
+1654634609 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/structs_Discente.c
 	"../../CommFiles/Discente.h"
 

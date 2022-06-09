@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//#define NDEBUG
 #include <assert.h>
 #include <string.h>
 #include "../CommFiles/Discente.h"
@@ -18,6 +19,7 @@ float_array_pt_t max_grades()
 "DISCENTS_AMOUNT en ../CommonFiles/Discente.h debe ser \
 igual a la cantidad de discentes evaluados (LENGTH(Disc_Arr) \
 en Discente.c)");
+
 static_assert(LENGTH(EvtMeasure)==LENGTH(m_arr),
 "SIZE_OF_CALDEVID en ../CommonFiles/Discente.h debe ser \
 igual a LENGTH(EvtMeasure) (en EventsMeasures.c)");

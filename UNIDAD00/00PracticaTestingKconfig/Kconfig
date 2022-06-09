@@ -1,0 +1,211 @@
+
+config EJEMPLO___I
+    bool "Ejemplo 1 programa 'Hola Mundo'"
+    default y
+    help
+      Se selecciona el programa del ejemplo 1 (diapositiva 8)
+
+config EJEMPLO__II
+    bool "Ejemplo 2 programa que usa las funciones printf y scanf"
+    default n
+    help
+      Se selecciona el programa del ejemplo 2 (diapositiva 11)
+
+config EJEMPLO_III
+    bool "Ejemplo 3 programa que muestra el especificador de formato %li (diapositiva 20)"
+    default n
+    help
+      Se selecciona el programa del ejemplo 3. El programa incluye limits.h con lo que
+      tiene acceso a las macros ULONG_MAX INT_MIN INT_MAX UINT_MAX LONG_MAX.
+
+config EJEMPLO__IV
+    bool "Ejemplo 4 programa que usa caracteres"
+    default n
+    help
+      Se selecciona el programa del ejemplo 4 de la presentaci\'on.
+
+config EJEMPLO___V
+    bool "Ejemplo 5 Integers With Different Bases"
+    default n
+    help
+      Se selecciona el programa del ejemplo 5 de la presentaci\'on.
+
+config EJEMPLO__VI
+    bool "Ejemplo 6 programa que muestra impresi\\'on de valores reales"
+    default n
+    help
+      Se selecciona el programa del ejemplo 6 de la presentaci\'on.
+
+config EJEMPLO__VI_A
+    bool "Ejemplo 6a programa que muestra el uso de una variable global"
+    default n
+    help
+      Se selecciona el programa del ejemplo 6a de la presentaci\'on. En
+      el programa se usa la variable global sum. En la funci\'on main
+      se usan las variables locales contador, a, b, y la variable global
+      sum.
+
+config EJEMPLO_VII
+    bool "Ejemplo 7, programa que muestra declaraci\\'on de constantes con nombre"
+    default n
+    help
+      Se selecciona el programa del ejemplo 8 de la presentaci\'on. El programa muestra 
+      c\'omo se declaran constantes con nombre.
+
+config EJEMPLO_VII_ERROR_DCOMPILACION
+    bool "Error de compilaci\'on, por intentar modificar una constante con nombre"
+    depends on EJEMPLO_VII
+    help
+      Se muestra que el compilador marca error de compilaci\'on si intentamos modificar 
+      el valor de una constante con nombre.
+
+config EJEMPLO_VIII
+    bool "Ejemplo 8 programa que muestra OVERFLOW al imprimir una variable"
+    default n
+    help
+      Se selecciona el programa del ejemplo 7 de la presentaci\'on. El programa 
+      muestra OVERFLOW al imprimir una variable de tipo double (la variable g) 
+      que fue inicializada con una constante sin punto decimal. Recordar que en 
+      el lenguaje C, las constantes tienen tipo de dato. Si una constante tiene 
+      punto decimal, su tipo de dato es double. Si no tiene punto decimal, su 
+      tipo de dato es int o long (dependiendo de que tan grade sea su valor).
+
+config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION
+     bool "Overflow al inicializar la variable unsigned long long ull, (usando LLONG_MAX+1)"
+     depends on EJEMPLO_VIII
+     help
+       Al inicializar la variable ull, de tipo unsigned long long, con la constante
+       (unsigned long long)(LLONG_MAX+1), se obtiene un warning de overflow en tiempo 
+       de compilaci\\'on.
+
+config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION_A
+     bool "Integer constant so large al inicializar la variable unsigned long long ulli, (usando valor num\\'erico)"
+     depends on EJEMPLO_VIII
+     help
+       Al inicializar la variable ull, de tipo unsigned long long, con la constante
+       (unsigned long long)(LLONG_MAX+1), pero esta vez escrito num\'ericamente en la 
+       expresi\'on de inicializaci\'on, se obtiene un warning de overflow en tiempo 
+       de compilaci\\'on.
+
+config OBTENER_WARNING_POR_OVERFLOW_EN_INICIALIZACION_B
+     bool "Overflow al inicializar la variable double g"
+     depends on EJEMPLO_VIII
+     help
+       Al inicializar la variable g, de tipo double, con la constante
+       (unsigned long long)(LLONG_MAX+1), se obtiene un warning de overflow en tiempo 
+       de compilaci\\'on.
+
+config EJEMPLO__IX
+    bool "Ejemplo 9, versi\\'on 0. Imprime bytes en hexadecimal"
+    default n
+    help
+      Take care with printf and scanf!
+
+config EJEMPLO__IX_VERS_I
+    bool "Ejemplo 9, versi\\'on 1. Imprime bytes en hexadecimal"
+    default n
+    help
+      Imprime en hexadecimal, bytes que est\'an el espacio de direcciones del proceso. 
+
+config EJEMPLO__IX_VERS_II
+    bool "Ejemplo 9, versi\\'on 2. Muestra promoci\\'on de un short int a un int"
+    default n
+    help
+      Imprime en hexadecimal, bytes que est\'an el espacio de direcciones del proceso. 
+      Se utiliza la funci\'on print_four_bytes_in_hex(int si) para mostrar que un short int 
+      (de dos bytes), se promovi\'o a un int (de cuatro bytes).
+      
+config EJEMPLO__IX_VERS_III
+    bool "Ejemplo 9, versi\\'on 3. Muestra llamado por referencia y llamado por valor"
+    default n
+    help
+      Imprime en hexadecimal, bytes que est\'an el espacio de direcciones del proceso. 
+      Se utiliza la funci\'on print_four_bytes_in_hex1(short int si) para mostrar llamado por 
+      valor, y la funci\'on print_four_bytes_in_hex1(short int *si) para mostrar llamado por  
+      referencia.
+      
+config EJEMPLO___X
+    bool "Ejemplo 10, Using Arithmetic Operators"
+    default n
+    help
+      El programa muestra asignaciones del resultado de divisi\'on entera a una variable de 
+      tipo entero y a una variable de tipo float.
+
+config EJEMPLO___X_PRINTF
+    bool "Ejemplo 10, Imprimir resultados de las operaciones"
+    depends on  EJEMPLO___X
+    help
+      El programa muestra asignaciones del resultado de divisi\'on entera a una variable de 
+      tipo entero y a una variable de tipo float.
+
+config EJEMPLO__XI
+    bool "Ejemplo 11, The Cast Opertor"
+    default n
+    help
+      El programa muestra asignaciones del resultado de operaciones enteras a una variable de 
+      tipo float.
+
+config EJEMPLO__XI_PRINTF
+    bool "Ejemplo 11, Imprimir resultados de las operaciones"
+    depends on  EJEMPLO__XI
+    help
+      El programa muestra asignaciones del resultado de operaciones enteras a una variable de 
+      a una variable de tipo float, pero usando cast.
+
+config EJEMPLO_DEBUGME
+    bool "Ejemplo debugme.c para ejemplificar el uso del depurador en Codeblocks"
+    default n
+    help
+      Se usa el archivo debugme.c para ejeplificar el uso del depurador GDB en Codeclocks.
+
+config DEBUGME_CON_ERROR_EN_INDICE
+    bool "Incluir error en \'indice para depuraci\'on"
+    depends on EJEMPLO_DEBUGME
+    help 
+      El archivo fuente incluye un error en un \'indice para ejemplificar el uso del depurador 
+      en Codeblocks.
+
+config DEBUGME_SIN_ERROR_EN_INDICE
+    bool "No incluir error en \\'indice para depuraci\\'on"
+    depends on EJEMPLO_DEBUGME
+    help 
+      El archivo fuente no incluye un error en un \'indice para ejemplificar el uso del depurador 
+      en Codeblocks.
+
+config EJEMPLO_XII
+    bool "Ejemplo12.c Prefix and Postfix"
+    default n
+    help
+      El archivo fuente Ejemplo12.c ejemplifica el uso del operador ++ como prefijo, y como 
+      postfijo.
+
+config EJEMPLO_XIII
+    bool "Ejemplo13.c Bitwise Example"
+    default n
+    help
+      El archivo fuente Ejemplo13.c ejemplifica el uso de los operadores a nivel de bits. 
+
+config EJEMPLO__XIV
+    bool "Ejemplo14.c Warning!"
+    default n
+    help
+      El archivo fuente Ejemplo14.c ejemplifica un error por usar '=' en lugar de '=='.
+
+config EJEMPLO___XV
+    bool "Ejemplo15.c sizeof Operator"
+    default n
+    help
+      El archivo fuente Ejemplo15.c ejemplifica el operador sizeof.
+
+config EJEMPLO__XVI
+    bool "Ejemplo16.c Review"
+    default n
+    help
+      El archivo fuente Ejemplo16.c ejemplifica el uso de varios operadores.
+
+config EJEMPLO_XVII
+    bool "Ejemplo17.c Bitwise operators example"
+    default n
+    help
+      El archivo fuente Ejemplo16.c ejemplifica el uso algunos operadores a nive de bits.
+

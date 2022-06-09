@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace_Intro_Prog_2022_2">
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUnidad02/IntroProgUnidad02.cbp">
+			<Depends filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.cbp" />
+		</Project>
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202110/ProgEst02/ProgEst02.cbp">
+			<Depends filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.cbp" />
+		</Project>
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/3.2_Cadenas/3.2_Cadenas.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/ManejoDFuncionesYCadenas/ManejoDFuncionesYCadenas.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4.1_Apuntadores/4.1_Apuntadores.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4.1.6_Apuntadores_y_Funciones/4.1.6_Apuntadores_y_Funciones.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/4_2_4_Arreglo_de_Estructuras/4_2_4_Arreglo_de_Estructuras.cbp">
+			<Depends filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.cbp" />
+		</Project>
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/5.2_Archivos/5.2_Archivos.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U5_Manejo_de_Archivos_y_Puertos/IntroProgRel_Tema_PPTX/Rel_Tema_PPTX.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_00/07Practica07_00.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_01/07Practica07_01.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_02/07Practica07_02.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_03/07Practica07_03.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_04/07Practica07_04.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_05/07Practica07_05.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/202112/U4_MdAyE/U4_MdAyE.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/pre_BdCoonteosDinamicos/pre_BdCoonteosDinamicos.cbp" />
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/NOTAaboutRAN/NOTAaboutRAN.cbp">
+			<Depends filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.cbp" />
+		</Project>
+		<Project filename="../../../mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/IntroProgUtil/IntroProgUtil.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

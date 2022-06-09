@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyecto04" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="cygwin" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="01EjemploFor">
+				<Option output="bin/01EjemploFor/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/01EjemploFor/" />
+				<Option object_output="obj/01EjemploFor/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="02EjemploFor">
+				<Option output="bin/02EjemploFor/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02EjemploFor/" />
+				<Option object_output="obj/02EjemploFor/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="04MaximoDeTresCantidades">
+				<Option output="bin/04MaximoDeTresCantidades/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/04MaximoDeTresCantidades/" />
+				<Option object_output="obj/04MaximoDeTresCantidades/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05Ciclos">
+				<Option output="bin/05Ciclos/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/05Ciclos/" />
+				<Option object_output="obj/05Ciclos/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05CiclosForWhileDoWhile">
+				<Option output="bin/05CiclosForWhileDoWhile/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/05CiclosForWhileDoWhile/" />
+				<Option object_output="obj/05CiclosForWhileDoWhile/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="main6_c">
+				<Option output="bin/main6_c/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/main6_c/" />
+				<Option object_output="obj/main6_c/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="06swap_bytes">
+				<Option output="bin/06swap_bytes/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/06swap_bytes/" />
+				<Option object_output="obj/06swap_bytes/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="07movsx_movzx">
+				<Option output="bin/07movsx_movzx/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/07movsx_movzx/" />
+				<Option object_output="obj/07movsx_movzx/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="08Buckets">
+				<Option output="bin/08Buckets/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/08Buckets/" />
+				<Option object_output="obj/08Buckets/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="09detctlr_usb">
+				<Option output="bin/09detctlr_usb/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/09detctlr_usb/" />
+				<Option object_output="obj/09detctlr_usb/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="10pciutils">
+				<Option output="bin/10pciutils/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/10pciutils/" />
+				<Option object_output="obj/10pciutils/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="ldd3_compile_scull">
+				<Option output="bin/ldd3_compile_scull/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/ldd3_compile_scull/" />
+				<Option object_output="obj/ldd3_compile_scull/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="11ArreglosBidimensionales">
+				<Option output="bin/11ArreglosBidimensionales/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/11ArreglosBidimensionales/" />
+				<Option object_output="obj/11ArreglosBidimensionales/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="12ArreglosBidimensionales">
+				<Option output="bin/12ArreglosBidimensionales/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/12ArreglosBidimensionales/" />
+				<Option object_output="obj/12ArreglosBidimensionales/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/LMC/2021/Proyecto04/00CommonFiles" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="13CuentaCar">
+				<Option output="bin/13CuentaCar/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/13CuentaCar/" />
+				<Option object_output="obj/13CuentaCar/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="14DigitoMayusculaMinuscula">
+				<Option output="bin/14DigitoMayusculaMinuscula/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/14DigitoMayusculaMinuscula/" />
+				<Option object_output="obj/14DigitoMayusculaMinuscula/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/LMC/2021/Proyecto04/00CommonFiles" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="15Binomial">
+				<Option output="bin/15Binomial/Proyecto04" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/15Binomial/" />
+				<Option object_output="obj/15Binomial/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/LMC/2021/Proyecto04/00CommonFiles" />
+		</Compiler>
+		<Unit filename="00CommonFiles/conio.c">
+			<Option compilerVar="CC" />
+			<Option target="13CuentaCar" />
+			<Option target="14DigitoMayusculaMinuscula" />
+		</Unit>
+		<Unit filename="13CuentaCar/CuentaCar.c">
+			<Option compilerVar="CC" />
+			<Option target="13CuentaCar" />
+		</Unit>
+		<Unit filename="14DigitoMayusculaMinuscula/DigitoMayusculaMinuscula.c">
+			<Option compilerVar="CC" />
+			<Option target="14DigitoMayusculaMinuscula" />
+		</Unit>
+		<Unit filename="15Binomial/DistribucionBinomial.c">
+			<Option compilerVar="CC" />
+			<Option target="15Binomial" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

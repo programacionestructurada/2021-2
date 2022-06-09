@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1651178016 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/3.2_Cadenas/fun_print_array_color.c
+	<stdio.h>
+
+1651179122 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U3_Manejo_de_Funciones_y_Cadenas/3.2_Cadenas/Arreglos.c
+	<stdio.h>
+	<stdint.h>
+

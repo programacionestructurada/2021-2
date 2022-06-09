@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1615318459 source:c:\users\lmc\2021\proyecto03\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1615319760 source:c:\users\lmc\2021\proyecto03\programa2.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1614799517 source:c:\users\lmc\2021\proyecto02\max.c
+	<stdio.h>
+	<limits.h>
+
+1614800901 source:c:\users\lmc\2021\proyecto02\main.cpp
+	<stdio.h>
+

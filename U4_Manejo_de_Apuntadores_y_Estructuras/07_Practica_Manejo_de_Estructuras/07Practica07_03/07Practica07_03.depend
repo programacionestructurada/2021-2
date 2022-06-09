@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1653339026 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_03/TestImgDirImgInv.c
+	<stdio.h>
+	<stdlib.h>
+	"PO_DiaNumDLab.h"
+
+1653667086 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_03/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1652994024 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/U4_Manejo_de_Apuntadores_y_Estructuras/07_Practica_Manejo_de_Estructuras/07Practica07_03/LintroProg.c
+	<string.h>
+	<limits.h>
+	<stdbool.h>
+	<assert.h>
+	"PO_DiaNumDLab.h"
+

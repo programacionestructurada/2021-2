@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1645051455 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_1.c
+	<stdio.h>
+
+1645052351 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_2.c
+	<stdio.h>
+
+1645053286 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_3.c
+	<stdio.h>
+	<limits.h>
+
+1645053552 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_4.c
+	<stdio.h>
+	<limits.h>
+
+1645131957 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_5.c
+	<stdio.h>
+
+1645132578 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_6.c
+	<stdio.h>
+	<float.h>
+
+1646674434 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_6a.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1645542775 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_7.c
+	<stdio.h>
+
+1645656412 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_8.c
+	<stdio.h>
+	<limits.h>
+
+1645123388 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v1.c
+	<stdio.h>
+
+1646087800 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9.c
+	<stdio.h>
+
+1645125544 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v2.c
+	<stdio.h>
+
+1645127855 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo_9v3.c
+	<stdio.h>
+
+1645544540 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo10.c
+	<stdio.h>
+
+1645547515 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo11.c
+	<stdio.h>
+
+1646080765 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/debugme.c
+	<stdio.h>
+	<stdlib.h>
+
+1646673015 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo12.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1646673120 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/00PracticaTestingKconfig_util.h
+	<vector>
+	"Fecha.h"
+
+1646673200 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/00PracticaTestingKconfig_util.c
+	"00PracticaTestingKconfig_util.h"
+	<stdio.h>
+
+1646674548 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo13.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1646686789 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo14.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1646687716 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo15.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1646689753 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo16.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+
+1646696024 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/UNIDAD00/00PracticaTestingKconfig/Ejemplo17.c
+	<stdio.h>
+	"00PracticaTestingKconfig_util.h"
+

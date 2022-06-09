@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG'
-make: Leaving directory '/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG'
- 
-make: *** No targets specified and no makefile found.  Stop.
-

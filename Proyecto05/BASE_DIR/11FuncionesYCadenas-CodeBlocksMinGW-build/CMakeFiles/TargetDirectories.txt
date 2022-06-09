@@ -1,3 +1,0 @@
-C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-CodeBlocksMinGW-build/CMakeFiles/11_Test_Funciones_y_Cadenas.dir
-C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-CodeBlocksMinGW-build/CMakeFiles/edit_cache.dir
-C:/Users/LMC/2021/Proyecto05/BASE_DIR/11FuncionesYCadenas-CodeBlocksMinGW-build/CMakeFiles/rebuild_cache.dir

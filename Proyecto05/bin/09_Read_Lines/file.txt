@@ -1,3 +1,0 @@
-Esta es la l\'inea 1 del archivo
-L\'inea n\'umero 2
-Esta es la tercera l\'inea del archivo

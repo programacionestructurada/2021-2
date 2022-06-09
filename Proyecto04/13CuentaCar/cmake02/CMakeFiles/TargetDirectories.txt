@@ -1,3 +1,0 @@
-C:/Users/LMC/2021/Proyecto04/13CuentaCar/cmake02/CMakeFiles/BuildDocs.dir
-C:/Users/LMC/2021/Proyecto04/13CuentaCar/cmake02/CMakeFiles/edit_cache.dir
-C:/Users/LMC/2021/Proyecto04/13CuentaCar/cmake02/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,11 @@
 #ifndef DISCENTE_H_INCLUDED
 #define DISCENTE_H_INCLUDED
 #define LENGTH(A)   (sizeof(A)/sizeof(A[0]))
-#define DISCENTS_AMOUNT  (37)//195-10=185, 185/5=37
+//#define DISCENTS_AMOUNT  (37)//195-10=185, 185/5=37
+#define DISCENTS_AMOUNT  (39)//LMC 2022.06.09.14.06
+                             //Agregu\'e manualmente en structs_DiscenteEvaluado.c,
+                             //y en Discente.c a los discentes Mu\~noz Vega Yael Arturo y
+                             //Santiago Tellez Eduardo Israel.
 #define SIZE_OF_DISC_NAME_ARRAY (64)
 /**El tama\~no del siguiente arreglo (el arreglo m_arr)
  * debe ser igual a la cantidad de evidencias solicitadas

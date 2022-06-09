@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveProject path="../202110/ProgEst02/ProgEst02.cbp" />
-	<PreferredTarget name="00_01_Arreglos" />
+	<ActiveProject path="../UNIDAD00/00PracticaTestingKconfig/00PracticaTestingKconfig.cbp" />
+	<PreferredTarget name="Release" />
 </CodeBlocks_workspace_layout_file>

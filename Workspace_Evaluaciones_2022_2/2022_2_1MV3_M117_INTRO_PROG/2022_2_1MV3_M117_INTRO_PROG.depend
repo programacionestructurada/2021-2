@@ -39,3 +39,29 @@
 1654634609 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/structs_Discente.c
 	"../../CommFiles/Discente.h"
 
+1654798823 source:/media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/MaximunsGrades.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	"../CommFiles/Discente.h"
+	"EventsMeasures.c"
+	"Discente.c"
+
+1654801607 /media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/CommFiles/Discente.h
+
+1654798823 /media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/EventsMeasures.c
+
+1654801701 /media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discente.c
+	"../CommFiles/Discente.h"
+
+1654798823 source:/media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/TestMG.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"../CommFiles/Discente.h"
+	"Discente.c"
+
+1654801610 source:/media/user/SOTR_1/20220609/2022_2-M117-INTROPROG/2021-2/Workspace_Evaluaciones_2022_2/2022_2_1MV3_M117_INTRO_PROG/Discentes/structs_DiscenteEvaluado.c
+	"../../CommFiles/Discente.h"
+

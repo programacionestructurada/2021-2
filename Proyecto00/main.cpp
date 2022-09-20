@@ -28,7 +28,7 @@ const float PI=3.1416;
 
 #else
  printf("\nSE INCLUYO LA PARTE #else\n");
- printf("PROGAMA DE EJEMPLO QUE USA CARACTERES\n\n");
+ printf("PROGRAMA DE EJEMPLO QUE USA CARACTERES\n\n");
 char c;
 unsigned int tam;
 printf("Valor entero: %i\n",num);

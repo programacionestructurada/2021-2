@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1657643371 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/ceyd.c
+	"consts.h"
+
+1657661541 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/consts.h
+	"IntroProgUnidad02_util.h"
+
+1655968703 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/IntroProgUnidad02_util.h
+	"PO_DiaNumDLab.h"
+
+1655968703 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/PO_DiaNumDLab.h
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1657693183 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/TestCeyd.c
+	<stdio.h>
+	<stdlib.h>
+	"consts.h"
+	"ceyd.c"
+
+1657694580 /mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/ceyd.c
+	"consts.h"
+
+1657703375 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/1TV1_PROG_ESTRUC_2021-2/REPO/org_programacionestructurada/2021-2/SimplEncription/TestEncrypt.c
+	<string.h>
+	"consts.h"
+	"ceyd.c"
+

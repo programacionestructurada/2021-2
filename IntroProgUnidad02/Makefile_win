@@ -1,0 +1,14 @@
+#
+default:
+	@echo "Use make menuconfig para configurar el proyecto"
+menuconfig:
+	./kconfig-mconf Kconfig
+#	./scripts/kconfig/conf --silentoldconfig Kconfig
+	./myconf .config autoconf.h
+	@echo "#	find ./obj/ -iname '*.o' -exec rm -v {} \;"
+	@echo " Para el comando find de linux de la l\'inea previa "
+	@echo " no conozo un comando equivalente para msdos."
+	@echo " As\'i que por ahora, para usar la nueva onfiguraci\'on,"
+	@echo " se debe reconstruir ompletaente el proyecto dando clic"
+	@echo " en el bot\'on que tiene las dos flechitas azules que"
+	@echo " forman un c\'irculo.                   Septiembre, 2022."
